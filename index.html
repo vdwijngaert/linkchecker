@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>LinkChecker &mdash; LinkChecker 2020-10-15 documentation</title>
+  <title>LinkChecker &mdash; LinkChecker 2021-01-15 documentation</title>
   
 
   
@@ -19,7 +19,10 @@
   
     <link rel="shortcut icon" href="_static/favicon.ico"/>
   
+
   
+  
+
   
 
   
@@ -32,7 +35,6 @@
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
         <script src="_static/doctools.js"></script>
-        <script src="_static/language_data.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -53,7 +55,7 @@
           
 
           
-            <a href="#" class="icon icon-home" alt="Documentation Home"> LinkChecker
+            <a href="#" class="icon icon-home"> LinkChecker
           
 
           
@@ -66,7 +68,7 @@
             
             
               <div class="version">
-                2020-10-15
+                2021-01-15
               </div>
             
           
@@ -387,6 +389,8 @@
 
 
 
+
+
 <div role="navigation" aria-label="breadcrumbs navigation">
 
   <ul class="wy-breadcrumbs">
@@ -398,7 +402,7 @@
     
       <li class="wy-breadcrumbs-aside">
         
-            
+          
             
               <!-- User defined GitHub URL -->
               <a href="https://github.com/linkchecker/linkchecker/blob/master/doc/src/index.rst" class="fa fa-github"> Edit on GitHub</a>
@@ -427,7 +431,7 @@ It runs on Python 3 systems, requiring Python 3.6 or later.</p>
 </div>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> pip3 install git+https://github.com/linkchecker/linkchecker.git
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>pip3 install git+https://github.com/linkchecker/linkchecker.git
 </pre></div>
 </div>
 <p>See the <a class="reference internal" href="install.html"><span class="doc">installation document</span></a> for more information.</p>
@@ -436,13 +440,15 @@ It runs on Python 3 systems, requiring Python 3.6 or later.</p>
 <h2>Basic usage<a class="headerlink" href="#basic-usage" title="Permalink to this headline">¶</a></h2>
 <p>To check a URL like <em>http://www.example.org/myhomepage/</em> it is enough to
 execute:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> linkchecker http://www.example.org/myhomepage/
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>linkchecker http://www.example.org/myhomepage/
 </pre></div>
 </div>
 <p>This check will validate recursively all pages starting with
 <em>http://www.example.org/myhomepage/</em>. Additionally, all external links
 pointing outside of <em>www.example.org</em> will be checked but not recursed
 into.</p>
+<p>Find out more from the manual pages <a class="reference internal" href="man/linkchecker.html"><span class="doc">linkchecker</span></a> and
+<a class="reference internal" href="man/linkcheckerrc.html"><span class="doc">linkcheckerrc</span></a>.</p>
 </div>
 <div class="section" id="features">
 <h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
@@ -461,8 +467,6 @@ links support</p></li>
 <li><p><a class="reference internal" href="man/linkchecker.html#plugins"><span class="std std-ref">Plugin support</span></a> allowing custom page checks. Currently available are
 HTML and CSS syntax checks, Antivirus checks, and more.</p></li>
 <li><p>Different interfaces: command line and web interface</p></li>
-<li><p>… and a lot more check options documented in the
-<a class="reference internal" href="man/linkchecker.html"><span class="doc">linkchecker</span></a> manual page.</p></li>
 </ul>
 </div>
 <div class="section" id="screenshots">
@@ -500,35 +504,28 @@ and test integration.</p>
            
           </div>
           <footer>
-  
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="faq.html" class="btn btn-neutral float-right" title="Frequently Asked Questions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
+        <a href="faq.html" class="btn btn-neutral float-right" title="Frequently Asked Questions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        
-        &copy; Copyright 2000-2016 Bastian Kleineidam, 2010-2020 LinkChecker Authors
+        &#169; Copyright 2000-2016 Bastian Kleineidam, 2010-2020 LinkChecker Authors.
 
     </p>
   </div>
     
     
     
-    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
     
-    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
     
     provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
-
         </div>
       </div>
 
