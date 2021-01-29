@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.configuration &mdash; LinkChecker 2021-01-15 documentation</title>
+  <title>linkcheck.configuration &mdash; LinkChecker 2021-01-29 documentation</title>
   
 
   
@@ -67,7 +67,7 @@
             
             
               <div class="version">
-                2021-01-15
+                2021-01-29
               </div>
             
           
@@ -451,8 +451,8 @@
 <span class="n">App</span> <span class="o">=</span> <span class="n">AppName</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">Version</span>
 <span class="n">Author</span> <span class="o">=</span> <span class="n">configdata</span><span class="o">.</span><span class="n">author</span>
 <span class="n">HtmlAuthor</span> <span class="o">=</span> <span class="n">Author</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39;&amp;nbsp;&#39;</span><span class="p">)</span>
-<span class="n">Copyright</span> <span class="o">=</span> <span class="s2">&quot;Copyright (C) 2000-2016 Bastian Kleineidam, 2010-2020 &quot;</span> <span class="o">+</span> <span class="n">Author</span>
-<span class="n">HtmlCopyright</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;Copyright &amp;copy; 2000-2016 Bastian&amp;nbsp;Kleineidam, 2010-2020 &quot;</span>
+<span class="n">Copyright</span> <span class="o">=</span> <span class="s2">&quot;Copyright (C) 2000-2016 Bastian Kleineidam, 2010-2021 &quot;</span> <span class="o">+</span> <span class="n">Author</span>
+<span class="n">HtmlCopyright</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;Copyright &amp;copy; 2000-2016 Bastian&amp;nbsp;Kleineidam, 2010-2021 &quot;</span>
                  <span class="o">+</span> <span class="n">HtmlAuthor</span><span class="p">)</span>
 <span class="n">HtmlAppInfo</span> <span class="o">=</span> <span class="n">App</span> <span class="o">+</span> <span class="s2">&quot;, &quot;</span> <span class="o">+</span> <span class="n">HtmlCopyright</span>
 <span class="n">Url</span> <span class="o">=</span> <span class="n">configdata</span><span class="o">.</span><span class="n">url</span>
@@ -624,6 +624,7 @@
         <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;status&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="kc">True</span>
         <span class="bp">self</span><span class="p">[</span><span class="s2">&quot;status_wait_seconds&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">5</span>
         <span class="bp">self</span><span class="p">[</span><span class="s1">&#39;logger&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">status_logger</span> <span class="o">=</span> <span class="kc">None</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">loggers</span> <span class="o">=</span> <span class="p">{}</span>
         <span class="kn">from</span> <span class="nn">..logger</span> <span class="kn">import</span> <span class="n">LoggerClasses</span>
 
@@ -1085,7 +1086,7 @@
 
   <div role="contentinfo">
     <p>
-        &#169; Copyright 2000-2016 Bastian Kleineidam, 2010-2020 LinkChecker Authors.
+        &#169; Copyright 2000-2016 Bastian Kleineidam, 2010-2021 LinkChecker Authors.
 
     </p>
   </div>
