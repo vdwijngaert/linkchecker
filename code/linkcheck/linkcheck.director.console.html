@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.director.console &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.director.console &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -464,70 +467,70 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.director.console.StatusLogger">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.director.console.</code><code class="sig-name descname">StatusLogger</code><span class="sig-paren">(</span><em class="sig-param">fd=&lt;encodings.utf_8.StreamWriter object&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#StatusLogger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.console.StatusLogger" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.console.StatusLogger">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.director.console.</span></span><span class="sig-name descname"><span class="pre">StatusLogger</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">fd=&lt;encodings.utf_8.StreamWriter</span> <span class="pre">object&gt;</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#StatusLogger"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.console.StatusLogger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Standard status logger. Default output is stderr.</p>
 <p>Save file descriptor for logging.</p>
 <dl class="py method">
-<dt id="linkcheck.director.console.StatusLogger.flush">
-<code class="sig-name descname">flush</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#StatusLogger.flush"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.console.StatusLogger.flush" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.console.StatusLogger.flush">
+<span class="sig-name descname"><span class="pre">flush</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#StatusLogger.flush"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.console.StatusLogger.flush" title="Permalink to this definition">¶</a></dt>
 <dd><p>Flush file descriptor.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.director.console.StatusLogger.log_status">
-<code class="sig-name descname">log_status</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">checked</span></em>, <em class="sig-param"><span class="n">in_progress</span></em>, <em class="sig-param"><span class="n">queue</span></em>, <em class="sig-param"><span class="n">duration</span></em>, <em class="sig-param"><span class="n">num_urls</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#StatusLogger.log_status"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.console.StatusLogger.log_status" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.console.StatusLogger.log_status">
+<span class="sig-name descname"><span class="pre">log_status</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">checked</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_progress</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">queue</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">duration</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_urls</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#StatusLogger.log_status"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.console.StatusLogger.log_status" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write status message to file descriptor.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.director.console.StatusLogger.write">
-<code class="sig-name descname">write</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">msg</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#StatusLogger.write"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.console.StatusLogger.write" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.console.StatusLogger.write">
+<span class="sig-name descname"><span class="pre">write</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#StatusLogger.write"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.console.StatusLogger.write" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write message to file descriptor.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.director.console.StatusLogger.writeln">
-<code class="sig-name descname">writeln</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">msg</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#StatusLogger.writeln"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.console.StatusLogger.writeln" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.console.StatusLogger.writeln">
+<span class="sig-name descname"><span class="pre">writeln</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#StatusLogger.writeln"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.console.StatusLogger.writeln" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write status message and line break to file descriptor.</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.director.console.internal_error">
-<code class="sig-prename descclassname">linkcheck.director.console.</code><code class="sig-name descname">internal_error</code><span class="sig-paren">(</span><em class="sig-param">out=&lt;encodings.utf_8.StreamWriter object&gt;</em>, <em class="sig-param">etype=None</em>, <em class="sig-param">evalue=None</em>, <em class="sig-param">tb=None</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#internal_error"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.console.internal_error" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.console.internal_error">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.director.console.</span></span><span class="sig-name descname"><span class="pre">internal_error</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">out=&lt;encodings.utf_8.StreamWriter</span> <span class="pre">object&gt;</span></em>, <em class="sig-param"><span class="pre">etype=None</span></em>, <em class="sig-param"><span class="pre">evalue=None</span></em>, <em class="sig-param"><span class="pre">tb=None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#internal_error"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.console.internal_error" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print internal error message (output defaults to stderr).</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.director.console.print_app_info">
-<code class="sig-prename descclassname">linkcheck.director.console.</code><code class="sig-name descname">print_app_info</code><span class="sig-paren">(</span><em class="sig-param">out=&lt;encodings.utf_8.StreamWriter object&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#print_app_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.console.print_app_info" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.console.print_app_info">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.director.console.</span></span><span class="sig-name descname"><span class="pre">print_app_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">out=&lt;encodings.utf_8.StreamWriter</span> <span class="pre">object&gt;</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#print_app_info"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.console.print_app_info" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print system and application info (output defaults to stderr).</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.director.console.print_env_info">
-<code class="sig-prename descclassname">linkcheck.director.console.</code><code class="sig-name descname">print_env_info</code><span class="sig-paren">(</span><em class="sig-param">key</em>, <em class="sig-param">out=&lt;encodings.utf_8.StreamWriter object&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#print_env_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.console.print_env_info" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.console.print_env_info">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.director.console.</span></span><span class="sig-name descname"><span class="pre">print_env_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">key</span></em>, <em class="sig-param"><span class="pre">out=&lt;encodings.utf_8.StreamWriter</span> <span class="pre">object&gt;</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#print_env_info"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.console.print_env_info" title="Permalink to this definition">¶</a></dt>
 <dd><p>If given environment key is defined, print it out.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.director.console.print_locale_info">
-<code class="sig-prename descclassname">linkcheck.director.console.</code><code class="sig-name descname">print_locale_info</code><span class="sig-paren">(</span><em class="sig-param">out=&lt;encodings.utf_8.StreamWriter object&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#print_locale_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.console.print_locale_info" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.console.print_locale_info">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.director.console.</span></span><span class="sig-name descname"><span class="pre">print_locale_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">out=&lt;encodings.utf_8.StreamWriter</span> <span class="pre">object&gt;</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#print_locale_info"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.console.print_locale_info" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print locale info.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.director.console.print_proxy_info">
-<code class="sig-prename descclassname">linkcheck.director.console.</code><code class="sig-name descname">print_proxy_info</code><span class="sig-paren">(</span><em class="sig-param">out=&lt;encodings.utf_8.StreamWriter object&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#print_proxy_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.console.print_proxy_info" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.console.print_proxy_info">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.director.console.</span></span><span class="sig-name descname"><span class="pre">print_proxy_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">out=&lt;encodings.utf_8.StreamWriter</span> <span class="pre">object&gt;</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#print_proxy_info"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.console.print_proxy_info" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print proxy info.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.director.console.print_version">
-<code class="sig-prename descclassname">linkcheck.director.console.</code><code class="sig-name descname">print_version</code><span class="sig-paren">(</span><em class="sig-param">out=&lt;encodings.utf_8.StreamWriter object&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#print_version"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.console.print_version" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.console.print_version">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.director.console.</span></span><span class="sig-name descname"><span class="pre">print_version</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">out=&lt;encodings.utf_8.StreamWriter</span> <span class="pre">object&gt;</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/console.html#print_version"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.console.print_version" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print the program version (output defaults to stdout).</p>
 </dd></dl>
 

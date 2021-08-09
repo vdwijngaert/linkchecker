@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.logger.gxml &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.logger.gxml &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -437,45 +440,45 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.logger.gxml.GraphXMLLogger">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.logger.gxml.</code><code class="sig-name descname">GraphXMLLogger</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/gxml.html#GraphXMLLogger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.gxml.GraphXMLLogger">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.logger.gxml.</span></span><span class="sig-name descname"><span class="pre">GraphXMLLogger</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/gxml.html#GraphXMLLogger"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">linkcheck.logger.xmllog._XMLLogger</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">linkcheck.logger.graph._GraphLogger</span></code></p>
 <p>XML output mirroring the GML structure. Easy to parse with any XML
 tool.</p>
 <p>Initialize graph node list and internal id counter.</p>
 <dl class="py method">
-<dt id="linkcheck.logger.gxml.GraphXMLLogger.end_output">
-<code class="sig-name descname">end_output</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/gxml.html#GraphXMLLogger.end_output"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger.end_output" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.gxml.GraphXMLLogger.end_output">
+<span class="sig-name descname"><span class="pre">end_output</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/gxml.html#GraphXMLLogger.end_output"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger.end_output" title="Permalink to this definition">¶</a></dt>
 <dd><p>Finish graph output, and print end of checking info as xml
 comment.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.gxml.GraphXMLLogger.log_url">
-<code class="sig-name descname">log_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/gxml.html#GraphXMLLogger.log_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger.log_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.gxml.GraphXMLLogger.log_url">
+<span class="sig-name descname"><span class="pre">log_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/gxml.html#GraphXMLLogger.log_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger.log_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write one node and all possible edges.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.gxml.GraphXMLLogger.start_output">
-<code class="sig-name descname">start_output</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/gxml.html#GraphXMLLogger.start_output"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger.start_output" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.gxml.GraphXMLLogger.start_output">
+<span class="sig-name descname"><span class="pre">start_output</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/gxml.html#GraphXMLLogger.start_output"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger.start_output" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write start of checking info as xml comment.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.gxml.GraphXMLLogger.write_edge">
-<code class="sig-name descname">write_edge</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">node</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/gxml.html#GraphXMLLogger.write_edge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger.write_edge" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.gxml.GraphXMLLogger.write_edge">
+<span class="sig-name descname"><span class="pre">write_edge</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">node</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/gxml.html#GraphXMLLogger.write_edge"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger.write_edge" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write one edge.</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="linkcheck.logger.gxml.GraphXMLLogger.LoggerArgs">
-<code class="sig-name descname">LoggerArgs</code><em class="property"> = {'filename': 'linkchecker-out.gxml'}</em><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger.LoggerArgs" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.gxml.GraphXMLLogger.LoggerArgs">
+<span class="sig-name descname"><span class="pre">LoggerArgs</span></span><em class="property"> <span class="pre">=</span> <span class="pre">{'filename':</span> <span class="pre">'linkchecker-out.gxml'}</span></em><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger.LoggerArgs" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
-<dt id="linkcheck.logger.gxml.GraphXMLLogger.LoggerName">
-<code class="sig-name descname">LoggerName</code><em class="property"> = 'gxml'</em><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger.LoggerName" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.gxml.GraphXMLLogger.LoggerName">
+<span class="sig-name descname"><span class="pre">LoggerName</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'gxml'</span></em><a class="headerlink" href="#linkcheck.logger.gxml.GraphXMLLogger.LoggerName" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

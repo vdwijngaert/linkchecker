@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.plugins.parseword &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.plugins.parseword &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -473,78 +476,78 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.plugins.parseword.WordParser">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.plugins.parseword.</code><code class="sig-name descname">WordParser</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">config</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#WordParser"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.parseword.WordParser" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.parseword.WordParser">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.plugins.parseword.</span></span><span class="sig-name descname"><span class="pre">WordParser</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#WordParser"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.parseword.WordParser" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">linkcheck.plugins._ParserPlugin</span></code></p>
 <p>Word parsing plugin.</p>
 <p>Check for pdfminer.</p>
 <dl class="py method">
-<dt id="linkcheck.plugins.parseword.WordParser.applies_to">
-<code class="sig-name descname">applies_to</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em>, <em class="sig-param"><span class="n">pagetype</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#WordParser.applies_to"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.parseword.WordParser.applies_to" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.parseword.WordParser.applies_to">
+<span class="sig-name descname"><span class="pre">applies_to</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pagetype</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#WordParser.applies_to"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.parseword.WordParser.applies_to" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check for Word pagetype.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.plugins.parseword.WordParser.check">
-<code class="sig-name descname">check</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#WordParser.check"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.parseword.WordParser.check" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.parseword.WordParser.check">
+<span class="sig-name descname"><span class="pre">check</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#WordParser.check"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.parseword.WordParser.check" title="Permalink to this definition">¶</a></dt>
 <dd><p>Parse Word data.</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.plugins.parseword.close_word_app">
-<code class="sig-prename descclassname">linkcheck.plugins.parseword.</code><code class="sig-name descname">close_word_app</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">app</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#close_word_app"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.parseword.close_word_app" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.parseword.close_word_app">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.plugins.parseword.</span></span><span class="sig-name descname"><span class="pre">close_word_app</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">app</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#close_word_app"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.parseword.close_word_app" title="Permalink to this definition">¶</a></dt>
 <dd><p>Close Word application object.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.plugins.parseword.close_wordfile">
-<code class="sig-prename descclassname">linkcheck.plugins.parseword.</code><code class="sig-name descname">close_wordfile</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">doc</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#close_wordfile"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.parseword.close_wordfile" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.parseword.close_wordfile">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.plugins.parseword.</span></span><span class="sig-name descname"><span class="pre">close_wordfile</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">doc</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#close_wordfile"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.parseword.close_wordfile" title="Permalink to this definition">¶</a></dt>
 <dd><p>Close word file.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.plugins.parseword.constants">
-<code class="sig-prename descclassname">linkcheck.plugins.parseword.</code><code class="sig-name descname">constants</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#constants"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.parseword.constants" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.parseword.constants">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.plugins.parseword.</span></span><span class="sig-name descname"><span class="pre">constants</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#constants"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.parseword.constants" title="Permalink to this definition">¶</a></dt>
 <dd><p>Helper to return constants. Avoids importing win32com.client in
 other modules.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.plugins.parseword.get_line_number">
-<code class="sig-prename descclassname">linkcheck.plugins.parseword.</code><code class="sig-name descname">get_line_number</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">doc</span></em>, <em class="sig-param"><span class="n">wrange</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#get_line_number"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.parseword.get_line_number" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.parseword.get_line_number">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.plugins.parseword.</span></span><span class="sig-name descname"><span class="pre">get_line_number</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">doc</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wrange</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#get_line_number"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.parseword.get_line_number" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get line number for given range object.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.plugins.parseword.get_temp_filename">
-<code class="sig-prename descclassname">linkcheck.plugins.parseword.</code><code class="sig-name descname">get_temp_filename</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">content</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#get_temp_filename"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.parseword.get_temp_filename" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.parseword.get_temp_filename">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.plugins.parseword.</span></span><span class="sig-name descname"><span class="pre">get_temp_filename</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">content</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#get_temp_filename"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.parseword.get_temp_filename" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get temporary filename for content to parse.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.plugins.parseword.get_word_app">
-<code class="sig-prename descclassname">linkcheck.plugins.parseword.</code><code class="sig-name descname">get_word_app</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#get_word_app"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.parseword.get_word_app" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.parseword.get_word_app">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.plugins.parseword.</span></span><span class="sig-name descname"><span class="pre">get_word_app</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#get_word_app"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.parseword.get_word_app" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return open Word.Application handle, or None if Word is not available
 on this system.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.plugins.parseword.has_word">
-<code class="sig-prename descclassname">linkcheck.plugins.parseword.</code><code class="sig-name descname">has_word</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#has_word"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.parseword.has_word" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.parseword.has_word">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.plugins.parseword.</span></span><span class="sig-name descname"><span class="pre">has_word</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#has_word"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.parseword.has_word" title="Permalink to this definition">¶</a></dt>
 <dd><p>Determine if Word is available on the current system.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.plugins.parseword.init_win32com">
-<code class="sig-prename descclassname">linkcheck.plugins.parseword.</code><code class="sig-name descname">init_win32com</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#init_win32com"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.parseword.init_win32com" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.parseword.init_win32com">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.plugins.parseword.</span></span><span class="sig-name descname"><span class="pre">init_win32com</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#init_win32com"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.parseword.init_win32com" title="Permalink to this definition">¶</a></dt>
 <dd><p>Initialize the win32com.client cache.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.plugins.parseword.open_wordfile">
-<code class="sig-prename descclassname">linkcheck.plugins.parseword.</code><code class="sig-name descname">open_wordfile</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">app</span></em>, <em class="sig-param"><span class="n">filename</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#open_wordfile"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.parseword.open_wordfile" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.parseword.open_wordfile">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.plugins.parseword.</span></span><span class="sig-name descname"><span class="pre">open_wordfile</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">app</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/parseword.html#open_wordfile"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.parseword.open_wordfile" title="Permalink to this definition">¶</a></dt>
 <dd><p>Open given Word file with application object.</p>
 </dd></dl>
 

@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.lc_cgi &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.lc_cgi &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -492,73 +495,73 @@
 </tbody>
 </table>
 <dl class="py exception">
-<dt id="linkcheck.lc_cgi.LCFormError">
-<em class="property">exception </em><code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">LCFormError</code><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#LCFormError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.LCFormError" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.LCFormError">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">LCFormError</span></span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#LCFormError"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.LCFormError" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
 <p>Form related errors.</p>
 </dd></dl>
 
 <dl class="py class">
-<dt id="linkcheck.lc_cgi.ThreadsafeIO">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">ThreadsafeIO</code><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#ThreadsafeIO"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.ThreadsafeIO" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.ThreadsafeIO">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">ThreadsafeIO</span></span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#ThreadsafeIO"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.ThreadsafeIO" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Thread-safe unicode I/O class.</p>
 <p>Initialize buffer.</p>
 <dl class="py method">
-<dt id="linkcheck.lc_cgi.ThreadsafeIO.close">
-<code class="sig-name descname">close</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#ThreadsafeIO.close"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.ThreadsafeIO.close" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.ThreadsafeIO.close">
+<span class="sig-name descname"><span class="pre">close</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#ThreadsafeIO.close"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.ThreadsafeIO.close" title="Permalink to this definition">¶</a></dt>
 <dd><p>Reset buffer and close this I/O object.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.lc_cgi.ThreadsafeIO.get_data">
-<code class="sig-name descname">get_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#ThreadsafeIO.get_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.ThreadsafeIO.get_data" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.ThreadsafeIO.get_data">
+<span class="sig-name descname"><span class="pre">get_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#ThreadsafeIO.get_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.ThreadsafeIO.get_data" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get bufferd unicode data.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.lc_cgi.ThreadsafeIO.write">
-<code class="sig-name descname">write</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#ThreadsafeIO.write"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.ThreadsafeIO.write" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.ThreadsafeIO.write">
+<span class="sig-name descname"><span class="pre">write</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#ThreadsafeIO.write"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.ThreadsafeIO.write" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write given unicode data to buffer.</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.lc_cgi.application">
-<code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">application</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">environ</span></em>, <em class="sig-param"><span class="n">start_response</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#application"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.application" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.application">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">application</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">environ</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_response</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#application"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.application" title="Permalink to this definition">¶</a></dt>
 <dd><p>WSGI interface: start an URL check.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.lc_cgi.checkform">
-<code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">checkform</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">form</span></em>, <em class="sig-param"><span class="n">env</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#checkform"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.checkform" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.checkform">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">checkform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">form</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">env</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#checkform"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.checkform" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check form data. throw exception on error
 Be sure to NOT print out any user-given data as HTML code, so use
 only plain strings as exception text.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.lc_cgi.checklink">
-<code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">checklink</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">form</span></em>, <em class="sig-param"><span class="n">env</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#checklink"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.checklink" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.checklink">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">checklink</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">form</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">env</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#checklink"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.checklink" title="Permalink to this definition">¶</a></dt>
 <dd><p>Validates the CGI form and checks the given links.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.lc_cgi.dump">
-<code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">dump</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">env</span></em>, <em class="sig-param"><span class="n">form</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#dump"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.dump" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.dump">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">dump</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">env</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">form</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#dump"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.dump" title="Permalink to this definition">¶</a></dt>
 <dd><p>Log environment and form.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.lc_cgi.encode">
-<code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">encode</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">s</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#encode"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.encode" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.encode">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">encode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">s</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#encode"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.encode" title="Permalink to this definition">¶</a></dt>
 <dd><p>Encode given string in HTML encoding.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.lc_cgi.format_error">
-<code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">format_error</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">why</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#format_error"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.format_error" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.format_error">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">format_error</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">why</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#format_error"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.format_error" title="Permalink to this definition">¶</a></dt>
 <dd><p>Format standard error page.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -574,38 +577,38 @@ only plain strings as exception text.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.lc_cgi.formvalue">
-<code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">formvalue</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">form</span></em>, <em class="sig-param"><span class="n">key</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#formvalue"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.formvalue" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.formvalue">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">formvalue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">form</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#formvalue"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.formvalue" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get value with given key from WSGI form.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.lc_cgi.get_configuration">
-<code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">get_configuration</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">form</span></em>, <em class="sig-param"><span class="n">out</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#get_configuration"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.get_configuration" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.get_configuration">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">get_configuration</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">form</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#get_configuration"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.get_configuration" title="Permalink to this definition">¶</a></dt>
 <dd><p>Initialize a CGI configuration.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.lc_cgi.get_host_name">
-<code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">get_host_name</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">form</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#get_host_name"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.get_host_name" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.get_host_name">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">get_host_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">form</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#get_host_name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.get_host_name" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return host name of given URL.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.lc_cgi.get_response_headers">
-<code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">get_response_headers</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#get_response_headers"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.get_response_headers" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.get_response_headers">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">get_response_headers</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#get_response_headers"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.get_response_headers" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get list of response headers in key-value form.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.lc_cgi.log">
-<code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">log</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">env</span></em>, <em class="sig-param"><span class="n">msg</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#log"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.log" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.log">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">log</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">env</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">msg</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#log"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.log" title="Permalink to this definition">¶</a></dt>
 <dd><p>Log message to WSGI error output.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.lc_cgi.start_check">
-<code class="sig-prename descclassname">linkcheck.lc_cgi.</code><code class="sig-name descname">start_check</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">aggregate</span></em>, <em class="sig-param"><span class="n">out</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#start_check"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.lc_cgi.start_check" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.lc_cgi.start_check">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.lc_cgi.</span></span><span class="sig-name descname"><span class="pre">start_check</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">aggregate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/lc_cgi.html#start_check"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.lc_cgi.start_check" title="Permalink to this definition">¶</a></dt>
 <dd><p>Start checking in background and write encoded output to out.</p>
 </dd></dl>
 

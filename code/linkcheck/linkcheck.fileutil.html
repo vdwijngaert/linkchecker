@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.fileutil &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.fileutil &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -459,27 +462,27 @@
 </tbody>
 </table>
 <dl class="py function">
-<dt id="linkcheck.fileutil.get_mtime">
-<code class="sig-prename descclassname">linkcheck.fileutil.</code><code class="sig-name descname">get_mtime</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#get_mtime"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.fileutil.get_mtime" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.fileutil.get_mtime">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.fileutil.</span></span><span class="sig-name descname"><span class="pre">get_mtime</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#get_mtime"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.fileutil.get_mtime" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return modification time of filename or zero on errors.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.fileutil.get_size">
-<code class="sig-prename descclassname">linkcheck.fileutil.</code><code class="sig-name descname">get_size</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#get_size"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.fileutil.get_size" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.fileutil.get_size">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.fileutil.</span></span><span class="sig-name descname"><span class="pre">get_size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#get_size"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.fileutil.get_size" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return file size in Bytes, or -1 on error.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.fileutil.get_temp_file">
-<code class="sig-prename descclassname">linkcheck.fileutil.</code><code class="sig-name descname">get_temp_file</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">mode</span><span class="o">=</span><span class="default_value">'r'</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#get_temp_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.fileutil.get_temp_file" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.fileutil.get_temp_file">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.fileutil.</span></span><span class="sig-name descname"><span class="pre">get_temp_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'r'</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#get_temp_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.fileutil.get_temp_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return tuple (open file object, filename) pointing to a temporary
 file.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.fileutil.has_module">
-<code class="sig-prename descclassname">linkcheck.fileutil.</code><code class="sig-name descname">has_module</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">without_error</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#has_module"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.fileutil.has_module" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.fileutil.has_module">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.fileutil.</span></span><span class="sig-name descname"><span class="pre">has_module</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">without_error</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#has_module"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.fileutil.has_module" title="Permalink to this definition">¶</a></dt>
 <dd><p>Test if given module can be imported.
 :param without_error: True if module must not throw any errors when importing
 :return: flag if import is successful
@@ -487,32 +490,32 @@ file.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.fileutil.is_accessable_by_others">
-<code class="sig-prename descclassname">linkcheck.fileutil.</code><code class="sig-name descname">is_accessable_by_others</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#is_accessable_by_others"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.fileutil.is_accessable_by_others" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.fileutil.is_accessable_by_others">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.fileutil.</span></span><span class="sig-name descname"><span class="pre">is_accessable_by_others</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#is_accessable_by_others"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.fileutil.is_accessable_by_others" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if file is group or world accessable.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.fileutil.is_readable">
-<code class="sig-prename descclassname">linkcheck.fileutil.</code><code class="sig-name descname">is_readable</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#is_readable"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.fileutil.is_readable" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.fileutil.is_readable">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.fileutil.</span></span><span class="sig-name descname"><span class="pre">is_readable</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#is_readable"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.fileutil.is_readable" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if file is a regular file and is readable.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.fileutil.is_tty">
-<code class="sig-prename descclassname">linkcheck.fileutil.</code><code class="sig-name descname">is_tty</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">fp</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#is_tty"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.fileutil.is_tty" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.fileutil.is_tty">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.fileutil.</span></span><span class="sig-name descname"><span class="pre">is_tty</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fp</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#is_tty"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.fileutil.is_tty" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if is a file object pointing to a TTY.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.fileutil.is_writable_by_others">
-<code class="sig-prename descclassname">linkcheck.fileutil.</code><code class="sig-name descname">is_writable_by_others</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#is_writable_by_others"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.fileutil.is_writable_by_others" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.fileutil.is_writable_by_others">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.fileutil.</span></span><span class="sig-name descname"><span class="pre">is_writable_by_others</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#is_writable_by_others"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.fileutil.is_writable_by_others" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if file or directory is world writable.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.fileutil.path_safe">
-<code class="sig-prename descclassname">linkcheck.fileutil.</code><code class="sig-name descname">path_safe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#path_safe"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.fileutil.path_safe" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.fileutil.path_safe">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.fileutil.</span></span><span class="sig-name descname"><span class="pre">path_safe</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/fileutil.html#path_safe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.fileutil.path_safe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Ensure path string is compatible with the platform file system encoding.</p>
 </dd></dl>
 

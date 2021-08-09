@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.ansicolor &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.ansicolor &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -494,15 +497,15 @@ the ISO standard.</p>
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.ansicolor.ColoredStreamHandler">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.ansicolor.</code><code class="sig-name descname">ColoredStreamHandler</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">strm</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#ColoredStreamHandler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.ansicolor.ColoredStreamHandler" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.ansicolor.ColoredStreamHandler">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.ansicolor.</span></span><span class="sig-name descname"><span class="pre">ColoredStreamHandler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">strm</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#ColoredStreamHandler"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.ansicolor.ColoredStreamHandler" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">logging.StreamHandler</span></code></p>
 <p>Send colored log messages to streams (file-like objects).</p>
 <p>Log to given stream (a file-like object) or to stderr if
 strm is None.</p>
 <dl class="py method">
-<dt id="linkcheck.ansicolor.ColoredStreamHandler.emit">
-<code class="sig-name descname">emit</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">record</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#ColoredStreamHandler.emit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.ansicolor.ColoredStreamHandler.emit" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.ansicolor.ColoredStreamHandler.emit">
+<span class="sig-name descname"><span class="pre">emit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">record</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#ColoredStreamHandler.emit"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.ansicolor.ColoredStreamHandler.emit" title="Permalink to this definition">¶</a></dt>
 <dd><p>Emit a record.</p>
 <p>If a formatter is specified, it is used to format the record.
 The record is then written to the stream with a trailing newline
@@ -510,49 +513,49 @@ The record is then written to the stream with a trailing newline
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.ansicolor.ColoredStreamHandler.get_color">
-<code class="sig-name descname">get_color</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">record</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#ColoredStreamHandler.get_color"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.ansicolor.ColoredStreamHandler.get_color" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.ansicolor.ColoredStreamHandler.get_color">
+<span class="sig-name descname"><span class="pre">get_color</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">record</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#ColoredStreamHandler.get_color"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.ansicolor.ColoredStreamHandler.get_color" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get appropriate color according to log level.</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py class">
-<dt id="linkcheck.ansicolor.Colorizer">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.ansicolor.</code><code class="sig-name descname">Colorizer</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">fp</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#Colorizer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.ansicolor.Colorizer" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.ansicolor.Colorizer">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.ansicolor.</span></span><span class="sig-name descname"><span class="pre">Colorizer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fp</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#Colorizer"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.ansicolor.Colorizer" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Prints colored messages to streams.</p>
 <p>Initialize with given stream (file-like object).</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.ansicolor.esc_ansicolor">
-<code class="sig-prename descclassname">linkcheck.ansicolor.</code><code class="sig-name descname">esc_ansicolor</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">color</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#esc_ansicolor"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.ansicolor.esc_ansicolor" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.ansicolor.esc_ansicolor">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.ansicolor.</span></span><span class="sig-name descname"><span class="pre">esc_ansicolor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">color</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#esc_ansicolor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.ansicolor.esc_ansicolor" title="Permalink to this definition">¶</a></dt>
 <dd><p>convert a named color definition to an escaped ANSI color</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.ansicolor.get_columns">
-<code class="sig-prename descclassname">linkcheck.ansicolor.</code><code class="sig-name descname">get_columns</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">fp</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#get_columns"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.ansicolor.get_columns" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.ansicolor.get_columns">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.ansicolor.</span></span><span class="sig-name descname"><span class="pre">get_columns</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fp</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#get_columns"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.ansicolor.get_columns" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return number of columns for given file.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.ansicolor.get_win_color">
-<code class="sig-prename descclassname">linkcheck.ansicolor.</code><code class="sig-name descname">get_win_color</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">color</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#get_win_color"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.ansicolor.get_win_color" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.ansicolor.get_win_color">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.ansicolor.</span></span><span class="sig-name descname"><span class="pre">get_win_color</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">color</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#get_win_color"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.ansicolor.get_win_color" title="Permalink to this definition">¶</a></dt>
 <dd><p>Convert a named color definition to Windows console color foreground,
 background and style numbers.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.ansicolor.has_colors">
-<code class="sig-prename descclassname">linkcheck.ansicolor.</code><code class="sig-name descname">has_colors</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">fp</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#has_colors"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.ansicolor.has_colors" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.ansicolor.has_colors">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.ansicolor.</span></span><span class="sig-name descname"><span class="pre">has_colors</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fp</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/ansicolor.html#has_colors"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.ansicolor.has_colors" title="Permalink to this definition">¶</a></dt>
 <dd><p>Test if given file is an ANSI color enabled tty.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.ansicolor.write_color">
-<code class="sig-prename descclassname">linkcheck.ansicolor.</code><code class="sig-name descname">write_color</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">fp</span></em>, <em class="sig-param"><span class="n">text</span></em>, <em class="sig-param"><span class="n">color</span></em><span class="sig-paren">)</span><a class="headerlink" href="#linkcheck.ansicolor.write_color" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.ansicolor.write_color">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.ansicolor.</span></span><span class="sig-name descname"><span class="pre">write_color</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fp</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">text</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">color</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#linkcheck.ansicolor.write_color" title="Permalink to this definition">¶</a></dt>
 <dd><p>Colorize text with given color.</p>
 </dd></dl>
 

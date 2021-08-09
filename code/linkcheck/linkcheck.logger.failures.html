@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.logger.failures &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.logger.failures &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -437,51 +440,51 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.logger.failures.FailuresLogger">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.logger.failures.</code><code class="sig-name descname">FailuresLogger</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/failures.html#FailuresLogger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.failures.FailuresLogger">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.logger.failures.</span></span><span class="sig-name descname"><span class="pre">FailuresLogger</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/failures.html#FailuresLogger"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">linkcheck.logger._Logger</span></code></p>
 <p>Updates a list of failed links. If a link already on the list
 is found to be working, it is removed. After n days
 we only have links on the list which failed within those n days.</p>
 <p>Intialize with old failures data (if found).</p>
 <dl class="py method">
-<dt id="linkcheck.logger.failures.FailuresLogger.comment">
-<code class="sig-name descname">comment</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">s</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/failures.html#FailuresLogger.comment"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.comment" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.failures.FailuresLogger.comment">
+<span class="sig-name descname"><span class="pre">comment</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">s</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/failures.html#FailuresLogger.comment"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.comment" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write nothing.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.failures.FailuresLogger.end_output">
-<code class="sig-name descname">end_output</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/failures.html#FailuresLogger.end_output"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.end_output" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.failures.FailuresLogger.end_output">
+<span class="sig-name descname"><span class="pre">end_output</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/failures.html#FailuresLogger.end_output"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.end_output" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write failures file.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.failures.FailuresLogger.log_url">
-<code class="sig-name descname">log_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/failures.html#FailuresLogger.log_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.log_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.failures.FailuresLogger.log_url">
+<span class="sig-name descname"><span class="pre">log_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/failures.html#FailuresLogger.log_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.log_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add invalid url to failures, delete valid url from failures.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.failures.FailuresLogger.read_failures">
-<code class="sig-name descname">read_failures</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/failures.html#FailuresLogger.read_failures"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.read_failures" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.failures.FailuresLogger.read_failures">
+<span class="sig-name descname"><span class="pre">read_failures</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/failures.html#FailuresLogger.read_failures"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.read_failures" title="Permalink to this definition">¶</a></dt>
 <dd><p>Read a previously stored failures from file fd.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.failures.FailuresLogger.write_failures">
-<code class="sig-name descname">write_failures</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/failures.html#FailuresLogger.write_failures"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.write_failures" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.failures.FailuresLogger.write_failures">
+<span class="sig-name descname"><span class="pre">write_failures</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/failures.html#FailuresLogger.write_failures"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.write_failures" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write the failures file.</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="linkcheck.logger.failures.FailuresLogger.LoggerArgs">
-<code class="sig-name descname">LoggerArgs</code><em class="property"> = {'filename': '~/.linkchecker/failures'}</em><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.LoggerArgs" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.failures.FailuresLogger.LoggerArgs">
+<span class="sig-name descname"><span class="pre">LoggerArgs</span></span><em class="property"> <span class="pre">=</span> <span class="pre">{'filename':</span> <span class="pre">'~/.linkchecker/failures'}</span></em><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.LoggerArgs" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
-<dt id="linkcheck.logger.failures.FailuresLogger.LoggerName">
-<code class="sig-name descname">LoggerName</code><em class="property"> = 'failures'</em><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.LoggerName" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.failures.FailuresLogger.LoggerName">
+<span class="sig-name descname"><span class="pre">LoggerName</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'failures'</span></em><a class="headerlink" href="#linkcheck.logger.failures.FailuresLogger.LoggerName" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

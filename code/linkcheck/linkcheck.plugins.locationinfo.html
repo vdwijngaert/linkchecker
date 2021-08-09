@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.plugins.locationinfo &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.plugins.locationinfo &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -434,10 +437,7 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="#linkcheck.plugins.locationinfo.get_geoip_dat" title="linkcheck.plugins.locationinfo.get_geoip_dat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_geoip_dat</span></code></a>()</p></td>
 <td><p>Find a GeoIP database, preferring city over country lookup.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#linkcheck.plugins.locationinfo.get_geoip_record" title="linkcheck.plugins.locationinfo.get_geoip_record"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_geoip_record</span></code></a>(host)</p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#linkcheck.plugins.locationinfo.get_location" title="linkcheck.plugins.locationinfo.get_location"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_location</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#linkcheck.plugins.locationinfo.get_location" title="linkcheck.plugins.locationinfo.get_location"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_location</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Get translated country and optional city name.</p></td>
 </tr>
 </tbody>
@@ -455,40 +455,35 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.plugins.locationinfo.LocationInfo">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.plugins.locationinfo.</code><code class="sig-name descname">LocationInfo</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">config</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/locationinfo.html#LocationInfo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.locationinfo.LocationInfo" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.locationinfo.LocationInfo">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.plugins.locationinfo.</span></span><span class="sig-name descname"><span class="pre">LocationInfo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/locationinfo.html#LocationInfo"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.locationinfo.LocationInfo" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">linkcheck.plugins._ConnectionPlugin</span></code></p>
 <p>Adds the country and if possible city name of the URL host as info.
 Needs GeoIP or pygeoip and a local country or city lookup DB installed.</p>
 <p>Check for geoip module.</p>
 <dl class="py method">
-<dt id="linkcheck.plugins.locationinfo.LocationInfo.applies_to">
-<code class="sig-name descname">applies_to</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/locationinfo.html#LocationInfo.applies_to"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.locationinfo.LocationInfo.applies_to" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.locationinfo.LocationInfo.applies_to">
+<span class="sig-name descname"><span class="pre">applies_to</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/locationinfo.html#LocationInfo.applies_to"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.locationinfo.LocationInfo.applies_to" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check for validity, host existence and geoip module.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.plugins.locationinfo.LocationInfo.check">
-<code class="sig-name descname">check</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/locationinfo.html#LocationInfo.check"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.locationinfo.LocationInfo.check" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.locationinfo.LocationInfo.check">
+<span class="sig-name descname"><span class="pre">check</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/locationinfo.html#LocationInfo.check"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.locationinfo.LocationInfo.check" title="Permalink to this definition">¶</a></dt>
 <dd><p>Try to ask GeoIP database for country info.</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.plugins.locationinfo.get_geoip_dat">
-<code class="sig-prename descclassname">linkcheck.plugins.locationinfo.</code><code class="sig-name descname">get_geoip_dat</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/locationinfo.html#get_geoip_dat"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.locationinfo.get_geoip_dat" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.locationinfo.get_geoip_dat">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.plugins.locationinfo.</span></span><span class="sig-name descname"><span class="pre">get_geoip_dat</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/locationinfo.html#get_geoip_dat"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.locationinfo.get_geoip_dat" title="Permalink to this definition">¶</a></dt>
 <dd><p>Find a GeoIP database, preferring city over country lookup.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.plugins.locationinfo.get_geoip_record">
-<code class="sig-prename descclassname">linkcheck.plugins.locationinfo.</code><code class="sig-name descname">get_geoip_record</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">host</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/locationinfo.html#get_geoip_record"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.locationinfo.get_geoip_record" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="py function">
-<dt id="linkcheck.plugins.locationinfo.get_location">
-<code class="sig-prename descclassname">linkcheck.plugins.locationinfo.</code><code class="sig-name descname">get_location</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/locationinfo.html#get_location"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.plugins.locationinfo.get_location" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.plugins.locationinfo.get_location">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.plugins.locationinfo.</span></span><span class="sig-name descname"><span class="pre">get_location</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/plugins/locationinfo.html#get_location"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.plugins.locationinfo.get_location" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get translated country and optional city name.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>

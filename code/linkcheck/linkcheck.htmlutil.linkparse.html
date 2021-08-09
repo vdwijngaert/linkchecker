@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.htmlutil.linkparse &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.htmlutil.linkparse &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -458,60 +461,60 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.htmlutil.linkparse.LinkFinder">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.htmlutil.linkparse.</code><code class="sig-name descname">LinkFinder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">callback</span></em>, <em class="sig-param"><span class="n">tags</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#LinkFinder"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.LinkFinder" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.htmlutil.linkparse.LinkFinder">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.htmlutil.linkparse.</span></span><span class="sig-name descname"><span class="pre">LinkFinder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tags</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#LinkFinder"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.LinkFinder" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Find HTML links, and apply them to the callback function with the
 format (url, lineno, column, name, codebase).</p>
 <p>Store content in buffer and initialize URL list.</p>
 <dl class="py method">
-<dt id="linkcheck.htmlutil.linkparse.LinkFinder.found_url">
-<code class="sig-name descname">found_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">base</span></em>, <em class="sig-param"><span class="n">lineno</span></em>, <em class="sig-param"><span class="n">column</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#LinkFinder.found_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.LinkFinder.found_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.htmlutil.linkparse.LinkFinder.found_url">
+<span class="sig-name descname"><span class="pre">found_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lineno</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">column</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#LinkFinder.found_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.LinkFinder.found_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add newly found URL to queue.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.htmlutil.linkparse.LinkFinder.get_link_name">
-<code class="sig-name descname">get_link_name</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">attrs</span></em>, <em class="sig-param"><span class="n">attr</span></em>, <em class="sig-param"><span class="n">name</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#LinkFinder.get_link_name"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.LinkFinder.get_link_name" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.htmlutil.linkparse.LinkFinder.get_link_name">
+<span class="sig-name descname"><span class="pre">get_link_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attrs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#LinkFinder.get_link_name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.LinkFinder.get_link_name" title="Permalink to this definition">¶</a></dt>
 <dd><p>Parse attrs for link name. Return name of link.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.htmlutil.linkparse.LinkFinder.html_element">
-<code class="sig-name descname">html_element</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">attrs</span></em>, <em class="sig-param"><span class="n">element_text</span></em>, <em class="sig-param"><span class="n">lineno</span></em>, <em class="sig-param"><span class="n">column</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#LinkFinder.html_element"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.LinkFinder.html_element" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.htmlutil.linkparse.LinkFinder.html_element">
+<span class="sig-name descname"><span class="pre">html_element</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attrs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">element_text</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lineno</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">column</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#LinkFinder.html_element"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.LinkFinder.html_element" title="Permalink to this definition">¶</a></dt>
 <dd><p>Search for links and store found URLs in a list.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.htmlutil.linkparse.LinkFinder.parse_tag">
-<code class="sig-name descname">parse_tag</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em>, <em class="sig-param"><span class="n">attr</span></em>, <em class="sig-param"><span class="n">value</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">base</span></em>, <em class="sig-param"><span class="n">lineno</span></em>, <em class="sig-param"><span class="n">column</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#LinkFinder.parse_tag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.LinkFinder.parse_tag" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.htmlutil.linkparse.LinkFinder.parse_tag">
+<span class="sig-name descname"><span class="pre">parse_tag</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lineno</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">column</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#LinkFinder.parse_tag"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.LinkFinder.parse_tag" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add given url data to url list.</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.htmlutil.linkparse.find_links">
-<code class="sig-prename descclassname">linkcheck.htmlutil.linkparse.</code><code class="sig-name descname">find_links</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">soup</span></em>, <em class="sig-param"><span class="n">callback</span></em>, <em class="sig-param"><span class="n">tags</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#find_links"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.find_links" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.htmlutil.linkparse.find_links">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.htmlutil.linkparse.</span></span><span class="sig-name descname"><span class="pre">find_links</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">soup</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">callback</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tags</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#find_links"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.find_links" title="Permalink to this definition">¶</a></dt>
 <dd><p>Parse into content and search for URLs to check.
 When a URL is found it is passed to the supplied callback.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.htmlutil.linkparse.is_form_get">
-<code class="sig-prename descclassname">linkcheck.htmlutil.linkparse.</code><code class="sig-name descname">is_form_get</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">attr</span></em>, <em class="sig-param"><span class="n">attrs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#is_form_get"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.is_form_get" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.htmlutil.linkparse.is_form_get">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.htmlutil.linkparse.</span></span><span class="sig-name descname"><span class="pre">is_form_get</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">attr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attrs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#is_form_get"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.is_form_get" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if this is a GET form action URL.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.htmlutil.linkparse.is_meta_url">
-<code class="sig-prename descclassname">linkcheck.htmlutil.linkparse.</code><code class="sig-name descname">is_meta_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">attr</span></em>, <em class="sig-param"><span class="n">attrs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#is_meta_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.is_meta_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.htmlutil.linkparse.is_meta_url">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.htmlutil.linkparse.</span></span><span class="sig-name descname"><span class="pre">is_meta_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">attr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attrs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#is_meta_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.is_meta_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if the meta attributes contain a URL.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.htmlutil.linkparse.strip_c_comments">
-<code class="sig-prename descclassname">linkcheck.htmlutil.linkparse.</code><code class="sig-name descname">strip_c_comments</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">text</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#strip_c_comments"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.strip_c_comments" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.htmlutil.linkparse.strip_c_comments">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.htmlutil.linkparse.</span></span><span class="sig-name descname"><span class="pre">strip_c_comments</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/linkparse.html#strip_c_comments"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.htmlutil.linkparse.strip_c_comments" title="Permalink to this definition">¶</a></dt>
 <dd><p>Remove C/CSS-style comments from text. Note that this method also
 deliberately removes comments inside of strings.</p>
 </dd></dl>

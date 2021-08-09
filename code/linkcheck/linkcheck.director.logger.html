@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.director.logger &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.director.logger &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -437,44 +440,44 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.director.logger.Logger">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.director.logger.</code><code class="sig-name descname">Logger</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">config</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.logger.Logger" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.logger.Logger">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.director.logger.</span></span><span class="sig-name descname"><span class="pre">Logger</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.logger.Logger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Thread safe multi-logger class used by aggregator instances.</p>
 <p>Initialize basic logging variables.</p>
 <dl class="py method">
-<dt id="linkcheck.director.logger.Logger.check_active_loggers">
-<code class="sig-name descname">check_active_loggers</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger.check_active_loggers"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.logger.Logger.check_active_loggers" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.logger.Logger.check_active_loggers">
+<span class="sig-name descname"><span class="pre">check_active_loggers</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger.check_active_loggers"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.logger.Logger.check_active_loggers" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if all loggers are deactivated due to I/O errors.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.director.logger.Logger.do_print">
-<code class="sig-name descname">do_print</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger.do_print"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.logger.Logger.do_print" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.logger.Logger.do_print">
+<span class="sig-name descname"><span class="pre">do_print</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger.do_print"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.logger.Logger.do_print" title="Permalink to this definition">¶</a></dt>
 <dd><p>Determine if URL entry should be logged or not.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.director.logger.Logger.end_log_output">
-<code class="sig-name descname">end_log_output</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger.end_log_output"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.logger.Logger.end_log_output" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.logger.Logger.end_log_output">
+<span class="sig-name descname"><span class="pre">end_log_output</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger.end_log_output"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.logger.Logger.end_log_output" title="Permalink to this definition">¶</a></dt>
 <dd><p>End output of all configured loggers.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.director.logger.Logger.log_internal_error">
-<code class="sig-name descname">log_internal_error</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger.log_internal_error"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.logger.Logger.log_internal_error" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.logger.Logger.log_internal_error">
+<span class="sig-name descname"><span class="pre">log_internal_error</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger.log_internal_error"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.logger.Logger.log_internal_error" title="Permalink to this definition">¶</a></dt>
 <dd><p>Document that an internal error occurred.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.director.logger.Logger.log_url">
-<code class="sig-name descname">log_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger.log_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.logger.Logger.log_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.logger.Logger.log_url">
+<span class="sig-name descname"><span class="pre">log_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger.log_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.logger.Logger.log_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Send new url to all configured loggers.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.director.logger.Logger.start_log_output">
-<code class="sig-name descname">start_log_output</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger.start_log_output"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.logger.Logger.start_log_output" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.logger.Logger.start_log_output">
+<span class="sig-name descname"><span class="pre">start_log_output</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/logger.html#Logger.start_log_output"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.logger.Logger.start_log_output" title="Permalink to this definition">¶</a></dt>
 <dd><p>Start output of all configured loggers.</p>
 </dd></dl>
 

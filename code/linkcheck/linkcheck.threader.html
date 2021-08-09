@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.threader &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.threader &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -435,21 +438,21 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.threader.StoppableThread">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.threader.</code><code class="sig-name descname">StoppableThread</code><a class="reference internal" href="../../_modules/linkcheck/threader.html#StoppableThread"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.threader.StoppableThread" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.threader.StoppableThread">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.threader.</span></span><span class="sig-name descname"><span class="pre">StoppableThread</span></span><a class="reference internal" href="../../_modules/linkcheck/threader.html#StoppableThread"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.threader.StoppableThread" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">threading.Thread</span></code></p>
 <p>Thread class with a stop() method. The thread itself has to check
 regularly for the stopped() condition.</p>
 <p>Store stop event.</p>
 <dl class="py method">
-<dt id="linkcheck.threader.StoppableThread.stop">
-<code class="sig-name descname">stop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/threader.html#StoppableThread.stop"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.threader.StoppableThread.stop" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.threader.StoppableThread.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/threader.html#StoppableThread.stop"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.threader.StoppableThread.stop" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set stop event.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.threader.StoppableThread.stopped">
-<code class="sig-name descname">stopped</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">timeout</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/threader.html#StoppableThread.stopped"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.threader.StoppableThread.stopped" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.threader.StoppableThread.stopped">
+<span class="sig-name descname"><span class="pre">stopped</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">timeout</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/threader.html#StoppableThread.stopped"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.threader.StoppableThread.stopped" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return True if stop event is set.</p>
 </dd></dl>
 

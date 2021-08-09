@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.htmlutil.loginformsearch &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.htmlutil.loginformsearch &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -449,22 +452,22 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.htmlutil.loginformsearch.Form">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.htmlutil.loginformsearch.</code><code class="sig-name descname">Form</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/loginformsearch.html#Form"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.htmlutil.loginformsearch.Form" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.htmlutil.loginformsearch.Form">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.htmlutil.loginformsearch.</span></span><span class="sig-name descname"><span class="pre">Form</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/loginformsearch.html#Form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.htmlutil.loginformsearch.Form" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Store HTML form URL and form data.</p>
 <p>Set URL and empty form data.</p>
 <dl class="py method">
-<dt id="linkcheck.htmlutil.loginformsearch.Form.add_value">
-<code class="sig-name descname">add_value</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">key</span></em>, <em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/loginformsearch.html#Form.add_value"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.htmlutil.loginformsearch.Form.add_value" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.htmlutil.loginformsearch.Form.add_value">
+<span class="sig-name descname"><span class="pre">add_value</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/loginformsearch.html#Form.add_value"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.htmlutil.loginformsearch.Form.add_value" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add a form value.</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.htmlutil.loginformsearch.search_form">
-<code class="sig-prename descclassname">linkcheck.htmlutil.loginformsearch.</code><code class="sig-name descname">search_form</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">content</span></em>, <em class="sig-param"><span class="n">cgiuser</span></em>, <em class="sig-param"><span class="n">cgipassword</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/loginformsearch.html#search_form"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.htmlutil.loginformsearch.search_form" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.htmlutil.loginformsearch.search_form">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.htmlutil.loginformsearch.</span></span><span class="sig-name descname"><span class="pre">search_form</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">content</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cgiuser</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cgipassword</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/htmlutil/loginformsearch.html#search_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.htmlutil.loginformsearch.search_form" title="Permalink to this definition">¶</a></dt>
 <dd><p>Search for a HTML form in the given HTML content that has input elements
 with name attributes that match cgiuser and/or cgipassword. If no such form
 is found return None.</p>

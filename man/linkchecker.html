@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkchecker &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkchecker &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
         <script src="../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -486,40 +489,40 @@ checked as usual:</p>
 <div class="section" id="general-options">
 <h3>General options<a class="headerlink" href="#general-options" title="Permalink to this headline">¶</a></h3>
 <dl class="std option">
-<dt id="cmdoption-f">
-<span id="cmdoption-config"></span><code class="sig-name descname">-f</code><code class="sig-prename descclassname"> FILENAME</code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--config</code><code class="sig-prename descclassname">=FILENAME</code><a class="headerlink" href="#cmdoption-f" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-f">
+<span id="cmdoption-config"></span><span class="sig-name descname"><span class="pre">-f</span></span><span class="sig-prename descclassname"> <span class="pre">FILENAME</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--config</span></span><span class="sig-prename descclassname"><span class="pre">=FILENAME</span></span><a class="headerlink" href="#cmdoption-f" title="Permalink to this definition">¶</a></dt>
 <dd><p>Use FILENAME as configuration file. By default LinkChecker uses
 ~/.linkchecker/linkcheckerrc.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-h">
-<span id="cmdoption-help"></span><code class="sig-name descname">-h</code><code class="sig-prename descclassname"></code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--help</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-h" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-h">
+<span id="cmdoption-help"></span><span class="sig-name descname"><span class="pre">-h</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--help</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-h" title="Permalink to this definition">¶</a></dt>
 <dd><p>Help me! Print usage information for this program.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-stdin">
-<code class="sig-name descname">--stdin</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-stdin" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-stdin">
+<span class="sig-name descname"><span class="pre">--stdin</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-stdin" title="Permalink to this definition">¶</a></dt>
 <dd><p>Read list of white-space separated URLs to check from stdin.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-t">
-<span id="cmdoption-threads"></span><code class="sig-name descname">-t</code><code class="sig-prename descclassname"> NUMBER</code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--threads</code><code class="sig-prename descclassname">=NUMBER</code><a class="headerlink" href="#cmdoption-t" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-t">
+<span id="cmdoption-threads"></span><span class="sig-name descname"><span class="pre">-t</span></span><span class="sig-prename descclassname"> <span class="pre">NUMBER</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--threads</span></span><span class="sig-prename descclassname"><span class="pre">=NUMBER</span></span><a class="headerlink" href="#cmdoption-t" title="Permalink to this definition">¶</a></dt>
 <dd><p>Generate no more than the given number of threads. Default number of
 threads is 10. To disable threading specify a non-positive number.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-V">
-<span id="cmdoption-v"></span><span id="cmdoption-version"></span><code class="sig-name descname">-V</code><code class="sig-prename descclassname"></code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--version</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-V" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-V">
+<span id="cmdoption-v"></span><span id="cmdoption-version"></span><span class="sig-name descname"><span class="pre">-V</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--version</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-V" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print version and exit.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-list-plugins">
-<code class="sig-name descname">--list-plugins</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-list-plugins" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-list-plugins">
+<span class="sig-name descname"><span class="pre">--list-plugins</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-list-plugins" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print available check plugins and exit.</p>
 </dd></dl>
 
@@ -527,8 +530,8 @@ threads is 10. To disable threading specify a non-positive number.</p>
 <div class="section" id="output-options">
 <h3>Output options<a class="headerlink" href="#output-options" title="Permalink to this headline">¶</a></h3>
 <dl class="std option">
-<dt id="cmdoption-D">
-<span id="cmdoption-d"></span><span id="cmdoption-debug"></span><code class="sig-name descname">-D</code><code class="sig-prename descclassname"> STRING</code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--debug</code><code class="sig-prename descclassname">=STRING</code><a class="headerlink" href="#cmdoption-D" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-D">
+<span id="cmdoption-d"></span><span id="cmdoption-debug"></span><span class="sig-name descname"><span class="pre">-D</span></span><span class="sig-prename descclassname"> <span class="pre">STRING</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--debug</span></span><span class="sig-prename descclassname"><span class="pre">=STRING</span></span><a class="headerlink" href="#cmdoption-D" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print debugging output for the given logger. Available loggers are
 cmdline, checking, cache, dns, plugin and
 all. Specifying all is an alias for specifying all available
@@ -538,8 +541,8 @@ during debug runs.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-F">
-<span id="cmdoption-file-output"></span><code class="sig-name descname">-F</code><code class="sig-prename descclassname"> TYPE[/ENCODING][/FILENAME]</code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--file-output</code><code class="sig-prename descclassname">=TYPE[/ENCODING][/FILENAME]</code><a class="headerlink" href="#cmdoption-F" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-F">
+<span id="cmdoption-file-output"></span><span class="sig-name descname"><span class="pre">-F</span></span><span class="sig-prename descclassname"> <span class="pre">TYPE[/ENCODING][/FILENAME]</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--file-output</span></span><span class="sig-prename descclassname"><span class="pre">=TYPE[/ENCODING][/FILENAME]</span></span><a class="headerlink" href="#cmdoption-F" title="Permalink to this definition">¶</a></dt>
 <dd><p>Output to a file linkchecker-out.TYPE,
 $HOME/.linkchecker/failures for failures output, or
 FILENAME if specified. The ENCODING specifies the output
@@ -556,20 +559,20 @@ suppress all console output with the option <a class="reference internal" href="
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-no-status">
-<code class="sig-name descname">--no-status</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-no-status" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-no-status">
+<span class="sig-name descname"><span class="pre">--no-status</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-no-status" title="Permalink to this definition">¶</a></dt>
 <dd><p>Do not print check status messages.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-no-warnings">
-<code class="sig-name descname">--no-warnings</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-no-warnings" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-no-warnings">
+<span class="sig-name descname"><span class="pre">--no-warnings</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-no-warnings" title="Permalink to this definition">¶</a></dt>
 <dd><p>Don’t log warnings. Default is to log warnings.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-o">
-<span id="cmdoption-output"></span><code class="sig-name descname">-o</code><code class="sig-prename descclassname"> TYPE[/ENCODING]</code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--output</code><code class="sig-prename descclassname">=TYPE[/ENCODING]</code><a class="headerlink" href="#cmdoption-o" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-o">
+<span id="cmdoption-output"></span><span class="sig-name descname"><span class="pre">-o</span></span><span class="sig-prename descclassname"> <span class="pre">TYPE[/ENCODING]</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--output</span></span><span class="sig-prename descclassname"><span class="pre">=TYPE[/ENCODING]</span></span><a class="headerlink" href="#cmdoption-o" title="Permalink to this definition">¶</a></dt>
 <dd><p>Specify output type as text, html, sql, csv,
 gml, dot, xml, sitemap, none or failures.
 Default type is text. The various output types are documented
@@ -580,21 +583,21 @@ your locale. Valid encodings are listed at
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-q">
-<span id="cmdoption-quiet"></span><code class="sig-name descname">-q</code><code class="sig-prename descclassname"></code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--quiet</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-q" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-q">
+<span id="cmdoption-quiet"></span><span class="sig-name descname"><span class="pre">-q</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--quiet</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-q" title="Permalink to this definition">¶</a></dt>
 <dd><p>Quiet operation, an alias for <a class="reference internal" href="#cmdoption-o"><code class="xref std std-option docutils literal notranslate"><span class="pre">-o</span></code></a> <em>none</em>. This is only useful with
 <a class="reference internal" href="#cmdoption-F"><code class="xref std std-option docutils literal notranslate"><span class="pre">-F</span></code></a>.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-0">
-<span id="cmdoption-verbose"></span><code class="sig-name descname">-v</code><code class="sig-prename descclassname"></code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--verbose</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-0" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-0">
+<span id="cmdoption-verbose"></span><span class="sig-name descname"><span class="pre">-v</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--verbose</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-0" title="Permalink to this definition">¶</a></dt>
 <dd><p>Log all checked URLs. Default is to log only errors and warnings.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-W">
-<span id="cmdoption-w"></span><span id="cmdoption-warning-regex"></span><code class="sig-name descname">-W</code><code class="sig-prename descclassname"> REGEX</code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--warning-regex</code><code class="sig-prename descclassname">=REGEX</code><a class="headerlink" href="#cmdoption-W" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-W">
+<span id="cmdoption-w"></span><span id="cmdoption-warning-regex"></span><span class="sig-name descname"><span class="pre">-W</span></span><span class="sig-prename descclassname"> <span class="pre">REGEX</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--warning-regex</span></span><span class="sig-prename descclassname"><span class="pre">=REGEX</span></span><a class="headerlink" href="#cmdoption-W" title="Permalink to this definition">¶</a></dt>
 <dd><p>Define a regular expression which prints a warning if it matches any
 content of the checked link. This applies only to valid pages, so we
 can get their content.
@@ -609,37 +612,37 @@ See section <a class="reference internal" href="#regular-expressions">REGULAR EX
 <div class="section" id="checking-options">
 <h3>Checking options<a class="headerlink" href="#checking-options" title="Permalink to this headline">¶</a></h3>
 <dl class="std option">
-<dt id="cmdoption-cookiefile">
-<code class="sig-name descname">--cookiefile</code><code class="sig-prename descclassname">=FILENAME</code><a class="headerlink" href="#cmdoption-cookiefile" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-cookiefile">
+<span class="sig-name descname"><span class="pre">--cookiefile</span></span><span class="sig-prename descclassname"><span class="pre">=FILENAME</span></span><a class="headerlink" href="#cmdoption-cookiefile" title="Permalink to this definition">¶</a></dt>
 <dd><p>Read a file with initial cookie data. The cookie data format is
 explained below.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-check-extern">
-<code class="sig-name descname">--check-extern</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-check-extern" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-check-extern">
+<span class="sig-name descname"><span class="pre">--check-extern</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-check-extern" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check external URLs.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-ignore-url">
-<code class="sig-name descname">--ignore-url</code><code class="sig-prename descclassname">=REGEX</code><a class="headerlink" href="#cmdoption-ignore-url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-ignore-url">
+<span class="sig-name descname"><span class="pre">--ignore-url</span></span><span class="sig-prename descclassname"><span class="pre">=REGEX</span></span><a class="headerlink" href="#cmdoption-ignore-url" title="Permalink to this definition">¶</a></dt>
 <dd><p>URLs matching the given regular expression will only be syntax checked.
 This option can be given multiple times.
 See section <a class="reference internal" href="#regular-expressions">REGULAR EXPRESSIONS</a> for more info.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-N">
-<span id="cmdoption-n"></span><span id="cmdoption-nntp-server"></span><code class="sig-name descname">-N</code><code class="sig-prename descclassname"> STRING</code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--nntp-server</code><code class="sig-prename descclassname">=STRING</code><a class="headerlink" href="#cmdoption-N" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-N">
+<span id="cmdoption-n"></span><span id="cmdoption-nntp-server"></span><span class="sig-name descname"><span class="pre">-N</span></span><span class="sig-prename descclassname"> <span class="pre">STRING</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--nntp-server</span></span><span class="sig-prename descclassname"><span class="pre">=STRING</span></span><a class="headerlink" href="#cmdoption-N" title="Permalink to this definition">¶</a></dt>
 <dd><p>Specify an NNTP server for news: links. Default is the
 environment variable <span class="target" id="index-0"></span><a class="reference internal" href="#envvar-NNTP_SERVER"><code class="xref std std-envvar docutils literal notranslate"><span class="pre">NNTP_SERVER</span></code></a>. If no host is given, only the
 syntax of the link is checked.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-no-follow-url">
-<code class="sig-name descname">--no-follow-url</code><code class="sig-prename descclassname">=REGEX</code><a class="headerlink" href="#cmdoption-no-follow-url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-no-follow-url">
+<span class="sig-name descname"><span class="pre">--no-follow-url</span></span><span class="sig-prename descclassname"><span class="pre">=REGEX</span></span><a class="headerlink" href="#cmdoption-no-follow-url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check but do not recurse into URLs matching the given regular
 expression.
 This option can be given multiple times.
@@ -647,44 +650,44 @@ See section <a class="reference internal" href="#regular-expressions">REGULAR EX
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-no-robots">
-<code class="sig-name descname">--no-robots</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-no-robots" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-no-robots">
+<span class="sig-name descname"><span class="pre">--no-robots</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-no-robots" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check URLs regardless of any robots.txt files.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-p">
-<span id="cmdoption-password"></span><code class="sig-name descname">-p</code><code class="sig-prename descclassname"></code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--password</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-p" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-p">
+<span id="cmdoption-password"></span><span class="sig-name descname"><span class="pre">-p</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--password</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-p" title="Permalink to this definition">¶</a></dt>
 <dd><p>Read a password from console and use it for HTTP and FTP
 authorization. For FTP the default password is anonymous&#64;. For
 HTTP there is no default password. See also <a class="reference internal" href="#cmdoption-u"><code class="xref std std-option docutils literal notranslate"><span class="pre">-u</span></code></a>.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-r">
-<span id="cmdoption-recursion-level"></span><code class="sig-name descname">-r</code><code class="sig-prename descclassname"> NUMBER</code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--recursion-level</code><code class="sig-prename descclassname">=NUMBER</code><a class="headerlink" href="#cmdoption-r" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-r">
+<span id="cmdoption-recursion-level"></span><span class="sig-name descname"><span class="pre">-r</span></span><span class="sig-prename descclassname"> <span class="pre">NUMBER</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--recursion-level</span></span><span class="sig-prename descclassname"><span class="pre">=NUMBER</span></span><a class="headerlink" href="#cmdoption-r" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check recursively all links up to given depth. A negative depth will
 enable infinite recursion. Default depth is infinite.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-timeout">
-<code class="sig-name descname">--timeout</code><code class="sig-prename descclassname">=NUMBER</code><a class="headerlink" href="#cmdoption-timeout" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-timeout">
+<span class="sig-name descname"><span class="pre">--timeout</span></span><span class="sig-prename descclassname"><span class="pre">=NUMBER</span></span><a class="headerlink" href="#cmdoption-timeout" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set the timeout for connection attempts in seconds. The default
 timeout is 60 seconds.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-u">
-<span id="cmdoption-user"></span><code class="sig-name descname">-u</code><code class="sig-prename descclassname"> STRING</code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--user</code><code class="sig-prename descclassname">=STRING</code><a class="headerlink" href="#cmdoption-u" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-u">
+<span id="cmdoption-user"></span><span class="sig-name descname"><span class="pre">-u</span></span><span class="sig-prename descclassname"> <span class="pre">STRING</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--user</span></span><span class="sig-prename descclassname"><span class="pre">=STRING</span></span><a class="headerlink" href="#cmdoption-u" title="Permalink to this definition">¶</a></dt>
 <dd><p>Try the given username for HTTP and FTP authorization. For FTP the
 default username is anonymous. For HTTP there is no default
 username. See also <a class="reference internal" href="#cmdoption-p"><code class="xref std std-option docutils literal notranslate"><span class="pre">-p</span></code></a>.</p>
 </dd></dl>
 
 <dl class="std option">
-<dt id="cmdoption-user-agent">
-<code class="sig-name descname">--user-agent</code><code class="sig-prename descclassname">=STRING</code><a class="headerlink" href="#cmdoption-user-agent" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="cmdoption-user-agent">
+<span class="sig-name descname"><span class="pre">--user-agent</span></span><span class="sig-prename descclassname"><span class="pre">=STRING</span></span><a class="headerlink" href="#cmdoption-user-agent" title="Permalink to this definition">¶</a></dt>
 <dd><p>Specify the User-Agent string to send to the HTTP server, for
 example “Mozilla/4.0”. The default is “LinkChecker/X.Y” where X.Y is
 the current version of LinkChecker.</p>
@@ -903,32 +906,32 @@ same as the host of the user browsing your pages.</p>
 <div class="section" id="environment">
 <h2>ENVIRONMENT<a class="headerlink" href="#environment" title="Permalink to this headline">¶</a></h2>
 <dl class="std envvar">
-<dt id="envvar-NNTP_SERVER">
-<code class="sig-name descname">NNTP_SERVER</code><a class="headerlink" href="#envvar-NNTP_SERVER" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="envvar-NNTP_SERVER">
+<span class="sig-name descname"><span class="pre">NNTP_SERVER</span></span><a class="headerlink" href="#envvar-NNTP_SERVER" title="Permalink to this definition">¶</a></dt>
 <dd><p>specifies default NNTP server</p>
 </dd></dl>
 
 <dl class="std envvar">
-<dt id="envvar-http_proxy">
-<code class="sig-name descname">http_proxy</code><a class="headerlink" href="#envvar-http_proxy" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="envvar-http_proxy">
+<span class="sig-name descname"><span class="pre">http_proxy</span></span><a class="headerlink" href="#envvar-http_proxy" title="Permalink to this definition">¶</a></dt>
 <dd><p>specifies default HTTP proxy server</p>
 </dd></dl>
 
 <dl class="std envvar">
-<dt id="envvar-ftp_proxy">
-<code class="sig-name descname">ftp_proxy</code><a class="headerlink" href="#envvar-ftp_proxy" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="envvar-ftp_proxy">
+<span class="sig-name descname"><span class="pre">ftp_proxy</span></span><a class="headerlink" href="#envvar-ftp_proxy" title="Permalink to this definition">¶</a></dt>
 <dd><p>specifies default FTP proxy server</p>
 </dd></dl>
 
 <dl class="std envvar">
-<dt id="envvar-no_proxy">
-<code class="sig-name descname">no_proxy</code><a class="headerlink" href="#envvar-no_proxy" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="envvar-no_proxy">
+<span class="sig-name descname"><span class="pre">no_proxy</span></span><a class="headerlink" href="#envvar-no_proxy" title="Permalink to this definition">¶</a></dt>
 <dd><p>comma-separated list of domains to not contact over a proxy server</p>
 </dd></dl>
 
 <dl class="std envvar">
-<dt id="envvar-LC_MESSAGES-LANG-LANGUAGE">
-<span id="envvar-LC_MESSAGES, LANG, LANGUAGE"></span><code class="sig-name descname">LC_MESSAGES, LANG, LANGUAGE</code><a class="headerlink" href="#envvar-LC_MESSAGES-LANG-LANGUAGE" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object std" id="envvar-LC_MESSAGES-LANG-LANGUAGE">
+<span id="envvar-LC_MESSAGES, LANG, LANGUAGE"></span><span class="sig-name descname"><span class="pre">LC_MESSAGES,</span> <span class="pre">LANG,</span> <span class="pre">LANGUAGE</span></span><a class="headerlink" href="#envvar-LC_MESSAGES-LANG-LANGUAGE" title="Permalink to this definition">¶</a></dt>
 <dd><p>specify output language</p>
 </dd></dl>
 

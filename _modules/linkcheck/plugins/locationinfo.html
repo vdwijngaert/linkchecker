@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.plugins.locationinfo &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.plugins.locationinfo &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
         <script src="../../../_static/jquery.js"></script>
         <script src="../../../_static/underscore.js"></script>
         <script src="../../../_static/doctools.js"></script>
@@ -67,7 +70,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -506,10 +509,10 @@
         <span class="k">def</span> <span class="nf">get_geoip_record</span><span class="p">(</span><span class="n">host</span><span class="p">):</span>
             <span class="k">return</span> <span class="n">geoip</span><span class="o">.</span><span class="n">record_by_name</span><span class="p">(</span><span class="n">host</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-<div class="viewcode-block" id="get_geoip_record"><a class="viewcode-back" href="../../../code/linkcheck/linkcheck.plugins.locationinfo.html#linkcheck.plugins.locationinfo.get_geoip_record">[docs]</a>        <span class="k">def</span> <span class="nf">get_geoip_record</span><span class="p">(</span><span class="n">host</span><span class="p">):</span>
+        <span class="k">def</span> <span class="nf">get_geoip_record</span><span class="p">(</span><span class="n">host</span><span class="p">):</span>
             <span class="k">return</span> <span class="p">{</span>
                 <span class="s1">&#39;country_name&#39;</span><span class="p">:</span> <span class="n">geoip</span><span class="o">.</span><span class="n">country_name_by_name</span><span class="p">(</span><span class="n">host</span><span class="p">),</span>
-            <span class="p">}</span></div>
+            <span class="p">}</span>
 
 
 <div class="viewcode-block" id="get_location"><a class="viewcode-back" href="../../../code/linkcheck/linkcheck.plugins.locationinfo.html#linkcheck.plugins.locationinfo.get_location">[docs]</a><span class="nd">@synchronized</span><span class="p">(</span><span class="n">_lock</span><span class="p">)</span>

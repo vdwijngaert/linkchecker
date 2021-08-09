@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.configuration &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.configuration &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -504,27 +507,27 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.configuration.Configuration">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">Configuration</code><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">Configuration</span></span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></p>
 <p>Storage for configuration options. Options can both be given from
 the command line as well as from configuration files.</p>
 <p>Initialize the default options.</p>
 <dl class="py method">
-<dt id="linkcheck.configuration.Configuration.add_auth">
-<code class="sig-name descname">add_auth</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">user</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">password</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">pattern</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.add_auth"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.add_auth" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration.add_auth">
+<span class="sig-name descname"><span class="pre">add_auth</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">user</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">password</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pattern</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.add_auth"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.add_auth" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add given authentication data.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.configuration.Configuration.get_connectionlimits">
-<code class="sig-name descname">get_connectionlimits</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.get_connectionlimits"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.get_connectionlimits" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration.get_connectionlimits">
+<span class="sig-name descname"><span class="pre">get_connectionlimits</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.get_connectionlimits"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.get_connectionlimits" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get dict with limit per connection type.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.configuration.Configuration.get_user_password">
-<code class="sig-name descname">get_user_password</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.get_user_password"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.get_user_password" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration.get_user_password">
+<span class="sig-name descname"><span class="pre">get_user_password</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.get_user_password"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.get_user_password" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get tuple (user, password) from configured authentication
 that matches the given URL.
 Both user and password can be None if not specified, or no
@@ -532,20 +535,20 @@ authentication matches the given URL.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.configuration.Configuration.logger_add">
-<code class="sig-name descname">logger_add</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">loggerclass</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.logger_add"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.logger_add" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration.logger_add">
+<span class="sig-name descname"><span class="pre">logger_add</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">loggerclass</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.logger_add"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.logger_add" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add a new logger type to the known loggers.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.configuration.Configuration.logger_new">
-<code class="sig-name descname">logger_new</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">loggername</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.logger_new"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.logger_new" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration.logger_new">
+<span class="sig-name descname"><span class="pre">logger_new</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">loggername</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.logger_new"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.logger_new" title="Permalink to this definition">¶</a></dt>
 <dd><p>Instantiate new logger and return it.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.configuration.Configuration.read">
-<code class="sig-name descname">read</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">files</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.read"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.read" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration.read">
+<span class="sig-name descname"><span class="pre">read</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">files</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.read"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.read" title="Permalink to this definition">¶</a></dt>
 <dd><p>Read settings from given config files.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Raises</dt>
@@ -555,67 +558,67 @@ authentication matches the given URL.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.configuration.Configuration.sanitize">
-<code class="sig-name descname">sanitize</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.sanitize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.sanitize" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration.sanitize">
+<span class="sig-name descname"><span class="pre">sanitize</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.sanitize"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.sanitize" title="Permalink to this definition">¶</a></dt>
 <dd><p>Make sure the configuration is consistent.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.configuration.Configuration.sanitize_logger">
-<code class="sig-name descname">sanitize_logger</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.sanitize_logger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.sanitize_logger" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration.sanitize_logger">
+<span class="sig-name descname"><span class="pre">sanitize_logger</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.sanitize_logger"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.sanitize_logger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Make logger configuration consistent.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.configuration.Configuration.sanitize_loginurl">
-<code class="sig-name descname">sanitize_loginurl</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.sanitize_loginurl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.sanitize_loginurl" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration.sanitize_loginurl">
+<span class="sig-name descname"><span class="pre">sanitize_loginurl</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.sanitize_loginurl"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.sanitize_loginurl" title="Permalink to this definition">¶</a></dt>
 <dd><p>Make login configuration consistent.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.configuration.Configuration.sanitize_plugins">
-<code class="sig-name descname">sanitize_plugins</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.sanitize_plugins"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.sanitize_plugins" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration.sanitize_plugins">
+<span class="sig-name descname"><span class="pre">sanitize_plugins</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.sanitize_plugins"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.sanitize_plugins" title="Permalink to this definition">¶</a></dt>
 <dd><p>Ensure each plugin is configurable.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.configuration.Configuration.sanitize_proxies">
-<code class="sig-name descname">sanitize_proxies</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.sanitize_proxies"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.sanitize_proxies" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration.sanitize_proxies">
+<span class="sig-name descname"><span class="pre">sanitize_proxies</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.sanitize_proxies"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.sanitize_proxies" title="Permalink to this definition">¶</a></dt>
 <dd><p>Try to read additional proxy settings which urllib does not
 support.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.configuration.Configuration.sanitize_ssl">
-<code class="sig-name descname">sanitize_ssl</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.sanitize_ssl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.sanitize_ssl" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration.sanitize_ssl">
+<span class="sig-name descname"><span class="pre">sanitize_ssl</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.sanitize_ssl"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.sanitize_ssl" title="Permalink to this definition">¶</a></dt>
 <dd><p>Use local installed certificate file if available.
 Tries to get system, then certifi, then the own
 installed certificate file.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.configuration.Configuration.set_status_logger">
-<code class="sig-name descname">set_status_logger</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">status_logger</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.set_status_logger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.set_status_logger" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.Configuration.set_status_logger">
+<span class="sig-name descname"><span class="pre">set_status_logger</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">status_logger</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#Configuration.set_status_logger"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.Configuration.set_status_logger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set the status logger.</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.add_kde_proxy">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">add_kde_proxy</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">key</span></em>, <em class="sig-param"><span class="n">value</span></em>, <em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#add_kde_proxy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.add_kde_proxy" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.add_kde_proxy">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">add_kde_proxy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#add_kde_proxy"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.add_kde_proxy" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add a proxy value to data dictionary after sanity checks.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.add_kde_setting">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">add_kde_setting</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">key</span></em>, <em class="sig-param"><span class="n">value</span></em>, <em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#add_kde_setting"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.add_kde_setting" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.add_kde_setting">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">add_kde_setting</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#add_kde_setting"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.add_kde_setting" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add a KDE proxy setting value to data dictionary.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.get_certifi_file">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">get_certifi_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_certifi_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.get_certifi_file" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.get_certifi_file">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">get_certifi_file</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_certifi_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.get_certifi_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the SSL certifications installed by the certifi package.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
@@ -632,38 +635,38 @@ the file is not found</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.get_gnome_proxy">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">get_gnome_proxy</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">protocol</span><span class="o">=</span><span class="default_value">'HTTP'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_gnome_proxy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.get_gnome_proxy" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.get_gnome_proxy">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">get_gnome_proxy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">protocol</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'HTTP'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_gnome_proxy"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.get_gnome_proxy" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return host:port for a GNOME proxy if found, else None.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.get_kde_config_dir">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">get_kde_config_dir</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_kde_config_dir"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.get_kde_config_dir" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.get_kde_config_dir">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">get_kde_config_dir</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_kde_config_dir"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.get_kde_config_dir" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return KDE configuration directory or None if not found.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.get_kde_ftp_proxy">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">get_kde_ftp_proxy</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_kde_ftp_proxy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.get_kde_ftp_proxy" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.get_kde_ftp_proxy">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">get_kde_ftp_proxy</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_kde_ftp_proxy"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.get_kde_ftp_proxy" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return host:port for KDE HTTP proxy if found, else None.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.get_kde_http_proxy">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">get_kde_http_proxy</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_kde_http_proxy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.get_kde_http_proxy" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.get_kde_http_proxy">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">get_kde_http_proxy</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_kde_http_proxy"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.get_kde_http_proxy" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return host:port for KDE HTTP proxy if found, else None.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.get_modules_info">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">get_modules_info</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_modules_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.get_modules_info" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.get_modules_info">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">get_modules_info</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_modules_info"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.get_modules_info" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return unicode string with detected module info.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.get_plugin_folders">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">get_plugin_folders</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_plugin_folders"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.get_plugin_folders" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.get_plugin_folders">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">get_plugin_folders</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_plugin_folders"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.get_plugin_folders" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get linkchecker plugin folders. Default is
 “$XDG_DATA_HOME/linkchecker/plugins/”. “~/.linkchecker/plugins/” is also
 supported for backwards compatibility, and is used if both directories
@@ -671,14 +674,14 @@ exist.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.get_share_dir">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">get_share_dir</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_share_dir"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.get_share_dir" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.get_share_dir">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">get_share_dir</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_share_dir"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.get_share_dir" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return absolute path of LinkChecker example configuration.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.get_share_file">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">get_share_file</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em>, <em class="sig-param"><span class="n">devel_dir</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_share_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.get_share_file" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.get_share_file">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">get_share_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">devel_dir</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_share_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.get_share_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a filename in the share directory.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -700,16 +703,16 @@ exist.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.get_system_cert_file">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">get_system_cert_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_system_cert_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.get_system_cert_file" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.get_system_cert_file">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">get_system_cert_file</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_system_cert_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.get_system_cert_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>Try to find a system-wide SSL certificate file.
 :return: the filename to the cert file
 :raises: ValueError when no system cert file could be found</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.get_user_config">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">get_user_config</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_user_config"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.get_user_config" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.get_user_config">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">get_user_config</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_user_config"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.get_user_config" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the user configuration filename.
 If the user configuration file does not exist, copy it from the initial
 configuration file, but only if this is not a portable installation.
@@ -720,47 +723,47 @@ failures or on portable systems).
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.get_user_data">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">get_user_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_user_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.get_user_data" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.get_user_data">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">get_user_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#get_user_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.get_user_data" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the user data folder.
 Returns “~/.linkchecker/” if this folder exists,     “$XDG_DATA_HOME/linkchecker” if it does not.
 :rtype string</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.make_userdir">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">make_userdir</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">child</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#make_userdir"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.make_userdir" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.make_userdir">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">make_userdir</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">child</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#make_userdir"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.make_userdir" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create a child directory.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.normpath">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">normpath</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#normpath"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.normpath" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.normpath">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">normpath</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#normpath"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.normpath" title="Permalink to this definition">¶</a></dt>
 <dd><p>Norm given system path with all available norm or expand functions
 in os.path.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.read_kioslaverc">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">read_kioslaverc</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#read_kioslaverc"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.read_kioslaverc" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.read_kioslaverc">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">read_kioslaverc</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#read_kioslaverc"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.read_kioslaverc" title="Permalink to this definition">¶</a></dt>
 <dd><p>Read kioslaverc into data dictionary.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.resolve_indirect">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">resolve_indirect</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">key</span></em>, <em class="sig-param"><span class="n">splithosts</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#resolve_indirect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.resolve_indirect" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.resolve_indirect">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">resolve_indirect</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">splithosts</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#resolve_indirect"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.resolve_indirect" title="Permalink to this definition">¶</a></dt>
 <dd><p>Replace name of environment variable with its value.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.resolve_kde_settings">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">resolve_kde_settings</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#resolve_kde_settings"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.resolve_kde_settings" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.resolve_kde_settings">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">resolve_kde_settings</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#resolve_kde_settings"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.resolve_kde_settings" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write final proxy configuration values in data dictionary.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.configuration.split_hosts">
-<code class="sig-prename descclassname">linkcheck.configuration.</code><code class="sig-name descname">split_hosts</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#split_hosts"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.configuration.split_hosts" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.configuration.split_hosts">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.configuration.</span></span><span class="sig-name descname"><span class="pre">split_hosts</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/configuration.html#split_hosts"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.configuration.split_hosts" title="Permalink to this definition">¶</a></dt>
 <dd><p>Split comma-separated host list.</p>
 </dd></dl>
 

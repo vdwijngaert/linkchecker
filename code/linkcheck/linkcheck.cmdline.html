@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.cmdline &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.cmdline &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -456,39 +459,39 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.cmdline.LCArgumentParser">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.cmdline.</code><code class="sig-name descname">LCArgumentParser</code><span class="sig-paren">(</span><em class="sig-param">prog=None</em>, <em class="sig-param">usage=None</em>, <em class="sig-param">description=None</em>, <em class="sig-param">epilog=None</em>, <em class="sig-param">parents=[]</em>, <em class="sig-param">formatter_class=&lt;class 'argparse.HelpFormatter'&gt;</em>, <em class="sig-param">prefix_chars='-'</em>, <em class="sig-param">fromfile_prefix_chars=None</em>, <em class="sig-param">argument_default=None</em>, <em class="sig-param">conflict_handler='error'</em>, <em class="sig-param">add_help=True</em>, <em class="sig-param">allow_abbrev=True</em>, <em class="sig-param">exit_on_error=True</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cmdline.html#LCArgumentParser"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cmdline.LCArgumentParser" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cmdline.LCArgumentParser">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.cmdline.</span></span><span class="sig-name descname"><span class="pre">LCArgumentParser</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">prog=None</span></em>, <em class="sig-param"><span class="pre">usage=None</span></em>, <em class="sig-param"><span class="pre">description=None</span></em>, <em class="sig-param"><span class="pre">epilog=None</span></em>, <em class="sig-param"><span class="pre">parents=[]</span></em>, <em class="sig-param"><span class="pre">formatter_class=&lt;class</span> <span class="pre">'argparse.HelpFormatter'&gt;</span></em>, <em class="sig-param"><span class="pre">prefix_chars='-'</span></em>, <em class="sig-param"><span class="pre">fromfile_prefix_chars=None</span></em>, <em class="sig-param"><span class="pre">argument_default=None</span></em>, <em class="sig-param"><span class="pre">conflict_handler='error'</span></em>, <em class="sig-param"><span class="pre">add_help=True</span></em>, <em class="sig-param"><span class="pre">allow_abbrev=True</span></em>, <em class="sig-param"><span class="pre">exit_on_error=True</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cmdline.html#LCArgumentParser"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cmdline.LCArgumentParser" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">argparse.ArgumentParser</span></code></p>
 <p>Custom argument parser to format help text.</p>
 <dl class="py method">
-<dt id="linkcheck.cmdline.LCArgumentParser.print_help">
-<code class="sig-name descname">print_help</code><span class="sig-paren">(</span><em class="sig-param">file=&lt;_io.TextIOWrapper name='&lt;stdout&gt;' mode='w' encoding='utf-8'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cmdline.html#LCArgumentParser.print_help"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cmdline.LCArgumentParser.print_help" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cmdline.LCArgumentParser.print_help">
+<span class="sig-name descname"><span class="pre">print_help</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">file=&lt;_io.TextIOWrapper</span> <span class="pre">name='&lt;stdout&gt;'</span> <span class="pre">mode='w'</span> <span class="pre">encoding='utf-8'&gt;</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cmdline.html#LCArgumentParser.print_help"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cmdline.LCArgumentParser.print_help" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print a help message to stdout.</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.cmdline.aggregate_url">
-<code class="sig-prename descclassname">linkcheck.cmdline.</code><code class="sig-name descname">aggregate_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">aggregate</span></em>, <em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">err_exit_code</span><span class="o">=</span><span class="default_value">2</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cmdline.html#aggregate_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cmdline.aggregate_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cmdline.aggregate_url">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.cmdline.</span></span><span class="sig-name descname"><span class="pre">aggregate_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">aggregate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">err_exit_code</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cmdline.html#aggregate_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cmdline.aggregate_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Append given commandline URL to input queue.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.cmdline.print_plugins">
-<code class="sig-prename descclassname">linkcheck.cmdline.</code><code class="sig-name descname">print_plugins</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">folders</span></em>, <em class="sig-param"><span class="n">exit_code</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cmdline.html#print_plugins"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cmdline.print_plugins" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cmdline.print_plugins">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.cmdline.</span></span><span class="sig-name descname"><span class="pre">print_plugins</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">folders</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">exit_code</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cmdline.html#print_plugins"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cmdline.print_plugins" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print available plugins and exit.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.cmdline.print_usage">
-<code class="sig-prename descclassname">linkcheck.cmdline.</code><code class="sig-name descname">print_usage</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">msg</span></em>, <em class="sig-param"><span class="n">exit_code</span><span class="o">=</span><span class="default_value">2</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cmdline.html#print_usage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cmdline.print_usage" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cmdline.print_usage">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.cmdline.</span></span><span class="sig-name descname"><span class="pre">print_usage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">exit_code</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cmdline.html#print_usage"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cmdline.print_usage" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print a program msg text to stderr and exit.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.cmdline.print_version">
-<code class="sig-prename descclassname">linkcheck.cmdline.</code><code class="sig-name descname">print_version</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">exit_code</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cmdline.html#print_version"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cmdline.print_version" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cmdline.print_version">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.cmdline.</span></span><span class="sig-name descname"><span class="pre">print_version</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">exit_code</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cmdline.html#print_version"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cmdline.print_version" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print the program version and exit.</p>
 </dd></dl>
 

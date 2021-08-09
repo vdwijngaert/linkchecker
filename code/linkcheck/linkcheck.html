@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -463,34 +466,34 @@
 </tbody>
 </table>
 <dl class="py exception">
-<dt id="linkcheck.LinkCheckerError">
-<em class="property">exception </em><code class="sig-prename descclassname">linkcheck.</code><code class="sig-name descname">LinkCheckerError</code><a class="reference internal" href="../../_modules/linkcheck.html#LinkCheckerError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.LinkCheckerError" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.LinkCheckerError">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.</span></span><span class="sig-name descname"><span class="pre">LinkCheckerError</span></span><a class="reference internal" href="../../_modules/linkcheck.html#LinkCheckerError"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.LinkCheckerError" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
 <p>Exception to be raised on linkchecker-specific check errors.</p>
 </dd></dl>
 
 <dl class="py exception">
-<dt id="linkcheck.LinkCheckerInterrupt">
-<em class="property">exception </em><code class="sig-prename descclassname">linkcheck.</code><code class="sig-name descname">LinkCheckerInterrupt</code><a class="reference internal" href="../../_modules/linkcheck.html#LinkCheckerInterrupt"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.LinkCheckerInterrupt" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.LinkCheckerInterrupt">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.</span></span><span class="sig-name descname"><span class="pre">LinkCheckerInterrupt</span></span><a class="reference internal" href="../../_modules/linkcheck.html#LinkCheckerInterrupt"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.LinkCheckerInterrupt" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
 <p>Used for testing.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.drop_privileges">
-<code class="sig-prename descclassname">linkcheck.</code><code class="sig-name descname">drop_privileges</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck.html#drop_privileges"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.drop_privileges" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.drop_privileges">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.</span></span><span class="sig-name descname"><span class="pre">drop_privileges</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck.html#drop_privileges"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.drop_privileges" title="Permalink to this definition">¶</a></dt>
 <dd><p>Make sure to drop root privileges on POSIX systems.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.get_install_data">
-<code class="sig-prename descclassname">linkcheck.</code><code class="sig-name descname">get_install_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck.html#get_install_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.get_install_data" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.get_install_data">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.</span></span><span class="sig-name descname"><span class="pre">get_install_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck.html#get_install_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.get_install_data" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return absolute path of LinkChecker data installation directory.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.get_link_pat">
-<code class="sig-prename descclassname">linkcheck.</code><code class="sig-name descname">get_link_pat</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">arg</span></em>, <em class="sig-param"><span class="n">strict</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck.html#get_link_pat"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.get_link_pat" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.get_link_pat">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.</span></span><span class="sig-name descname"><span class="pre">get_link_pat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">strict</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck.html#get_link_pat"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.get_link_pat" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get a link pattern matcher for intern/extern links.
 Returns a compiled pattern and a negate and strict option.</p>
 <dl class="field-list simple">
@@ -513,8 +516,8 @@ Returns a compiled pattern and a negate and strict option.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.init_i18n">
-<code class="sig-prename descclassname">linkcheck.</code><code class="sig-name descname">init_i18n</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">loc</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck.html#init_i18n"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.init_i18n" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.init_i18n">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.</span></span><span class="sig-name descname"><span class="pre">init_i18n</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">loc</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck.html#init_i18n"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.init_i18n" title="Permalink to this definition">¶</a></dt>
 <dd><p>Initialize i18n with the configured locale dir. The environment
 variable LOCPATH can also specify a locale dir.</p>
 <dl class="field-list simple">
@@ -525,14 +528,14 @@ variable LOCPATH can also specify a locale dir.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.module_path">
-<code class="sig-prename descclassname">linkcheck.</code><code class="sig-name descname">module_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck.html#module_path"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.module_path" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.module_path">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.</span></span><span class="sig-name descname"><span class="pre">module_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck.html#module_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.module_path" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return absolute directory of system executable.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.print_threadstacks">
-<code class="sig-prename descclassname">linkcheck.</code><code class="sig-name descname">print_threadstacks</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sig</span></em>, <em class="sig-param"><span class="n">frame</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck.html#print_threadstacks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.print_threadstacks" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.print_threadstacks">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.</span></span><span class="sig-name descname"><span class="pre">print_threadstacks</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sig</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frame</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck.html#print_threadstacks"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.print_threadstacks" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print stack traces of all running threads.</p>
 </dd></dl>
 

@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.url &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.url &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -68,7 +71,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -479,48 +482,48 @@
 </tbody>
 </table>
 <dl class="py function">
-<dt id="linkcheck.url.collapse_segments">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">collapse_segments</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#collapse_segments"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.collapse_segments" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.collapse_segments">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">collapse_segments</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#collapse_segments"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.collapse_segments" title="Permalink to this definition">¶</a></dt>
 <dd><p>Remove all redundant segments from the given URL path.
 Precondition: path is an unquoted url path</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.document_quote">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">document_quote</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">document</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#document_quote"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.document_quote" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.document_quote">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">document_quote</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">document</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#document_quote"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.document_quote" title="Permalink to this definition">¶</a></dt>
 <dd><p>Quote given document.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.idna_encode">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">idna_encode</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">host</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#idna_encode"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.idna_encode" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.idna_encode">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">idna_encode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">host</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#idna_encode"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.idna_encode" title="Permalink to this definition">¶</a></dt>
 <dd><p>Encode hostname as internationalized domain name (IDN) according
 to RFC 3490.
 :raise: UnicodeError if hostname is not properly IDN encoded.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.is_numeric_port">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">is_numeric_port</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">portstr</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#is_numeric_port"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.is_numeric_port" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.is_numeric_port">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">is_numeric_port</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">portstr</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#is_numeric_port"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.is_numeric_port" title="Permalink to this definition">¶</a></dt>
 <dd><p>return: integer port (== True) iff portstr is a valid port number,
 False otherwise</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.is_safe_domain">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">is_safe_domain</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">string</span></em>, <em class="sig-param"><span class="n">pos</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">endpos</span><span class="o">=</span><span class="default_value">9223372036854775807</span></em><span class="sig-paren">)</span><a class="headerlink" href="#linkcheck.url.is_safe_domain" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.is_safe_domain">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">is_safe_domain</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pos</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">endpos</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">9223372036854775807</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#linkcheck.url.is_safe_domain" title="Permalink to this definition">¶</a></dt>
 <dd><p>Matches zero or more characters at the beginning of the string.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.is_safe_url">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">is_safe_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">string</span></em>, <em class="sig-param"><span class="n">pos</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">endpos</span><span class="o">=</span><span class="default_value">9223372036854775807</span></em><span class="sig-paren">)</span><a class="headerlink" href="#linkcheck.url.is_safe_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.is_safe_url">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">is_safe_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pos</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">endpos</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">9223372036854775807</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#linkcheck.url.is_safe_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Matches zero or more characters at the beginning of the string.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.parse_qsl">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">parse_qsl</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">qs</span></em>, <em class="sig-param"><span class="n">encoding</span></em>, <em class="sig-param"><span class="n">keep_blank_values</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">strict_parsing</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#parse_qsl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.parse_qsl" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.parse_qsl">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">parse_qsl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">qs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">encoding</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">keep_blank_values</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">strict_parsing</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#parse_qsl"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.parse_qsl" title="Permalink to this definition">¶</a></dt>
 <dd><p>Parse a query given as a string argument.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -548,22 +551,22 @@ for this CGI parameter which is either a semicolon or an ampersand</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.split_netloc">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">split_netloc</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">netloc</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#split_netloc"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.split_netloc" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.split_netloc">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">split_netloc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">netloc</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#split_netloc"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.split_netloc" title="Permalink to this definition">¶</a></dt>
 <dd><p>Separate userinfo from host in urllib.parse.SplitResult.netloc.
 Originated as urllib.parse._splituser().</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.splitparams">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">splitparams</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#splitparams"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.splitparams" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.splitparams">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">splitparams</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#splitparams"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.splitparams" title="Permalink to this definition">¶</a></dt>
 <dd><p>Split off parameter part from path.
 Returns tuple (path-without-param, param)</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.splitport">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">splitport</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">host</span></em>, <em class="sig-param"><span class="n">port</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#splitport"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.splitport" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.splitport">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">splitport</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">host</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">port</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#splitport"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.splitport" title="Permalink to this definition">¶</a></dt>
 <dd><p>Split optional port number from host. If host has no port number,
 the given default port is returned.</p>
 <dl class="field-list simple">
@@ -583,31 +586,31 @@ the given default port is returned.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.url_fix_host">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">url_fix_host</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">urlparts</span></em>, <em class="sig-param"><span class="n">encoding</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_fix_host"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.url_fix_host" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.url_fix_host">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">url_fix_host</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">urlparts</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">encoding</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_fix_host"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.url_fix_host" title="Permalink to this definition">¶</a></dt>
 <dd><p>Unquote and fix hostname. Returns is_idn.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.url_fix_mailto_urlsplit">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">url_fix_mailto_urlsplit</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">urlparts</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_fix_mailto_urlsplit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.url_fix_mailto_urlsplit" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.url_fix_mailto_urlsplit">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">url_fix_mailto_urlsplit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">urlparts</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_fix_mailto_urlsplit"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.url_fix_mailto_urlsplit" title="Permalink to this definition">¶</a></dt>
 <dd><p>Split query part of mailto url if found.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.url_fix_wayback_query">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">url_fix_wayback_query</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_fix_wayback_query"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.url_fix_wayback_query" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.url_fix_wayback_query">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">url_fix_wayback_query</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_fix_wayback_query"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.url_fix_wayback_query" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.url_is_absolute">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">url_is_absolute</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">string</span></em>, <em class="sig-param"><span class="n">pos</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">endpos</span><span class="o">=</span><span class="default_value">9223372036854775807</span></em><span class="sig-paren">)</span><a class="headerlink" href="#linkcheck.url.url_is_absolute" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.url_is_absolute">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">url_is_absolute</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pos</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">endpos</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">9223372036854775807</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#linkcheck.url.url_is_absolute" title="Permalink to this definition">¶</a></dt>
 <dd><p>Matches zero or more characters at the beginning of the string.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.url_needs_quoting">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">url_needs_quoting</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_needs_quoting"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.url_needs_quoting" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.url_needs_quoting">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">url_needs_quoting</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_needs_quoting"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.url_needs_quoting" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if url needs percent quoting. Note that the method does
 only check basic character sets, and not any other syntax.
 The URL might still be syntactically incorrect even when
@@ -615,8 +618,8 @@ it is properly quoted.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.url_norm">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">url_norm</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">encoding</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_norm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.url_norm" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.url_norm">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">url_norm</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">encoding</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_norm"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.url_norm" title="Permalink to this definition">¶</a></dt>
 <dd><p>Normalize the given URL which must be quoted. Supports unicode
 hostnames (IDNA encoding) according to RFC 3490.</p>
 <dl class="field-list simple">
@@ -630,20 +633,20 @@ hostnames (IDNA encoding) according to RFC 3490.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.url_parse_query">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">url_parse_query</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">query</span></em>, <em class="sig-param"><span class="n">encoding</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_parse_query"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.url_parse_query" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.url_parse_query">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">url_parse_query</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">encoding</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_parse_query"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.url_parse_query" title="Permalink to this definition">¶</a></dt>
 <dd><p>Parse and re-join the given CGI query.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.url_quote">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">url_quote</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em>, <em class="sig-param"><span class="n">encoding</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_quote"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.url_quote" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.url_quote">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">url_quote</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">encoding</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#url_quote"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.url_quote" title="Permalink to this definition">¶</a></dt>
 <dd><p>Quote given URL.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.url.urlunsplit">
-<code class="sig-prename descclassname">linkcheck.url.</code><code class="sig-name descname">urlunsplit</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">urlparts</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#urlunsplit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.url.urlunsplit" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.url.urlunsplit">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.url.</span></span><span class="sig-name descname"><span class="pre">urlunsplit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">urlparts</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/url.html#urlunsplit"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.url.urlunsplit" title="Permalink to this definition">¶</a></dt>
 <dd><p>Same as urllib.parse.urlunsplit but with extra UNC path handling
 for Windows OS.</p>
 </dd></dl>

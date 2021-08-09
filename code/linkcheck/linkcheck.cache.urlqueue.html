@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.cache.urlqueue &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.cache.urlqueue &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -452,56 +455,56 @@
 </tbody>
 </table>
 <dl class="py exception">
-<dt id="linkcheck.cache.urlqueue.Empty">
-<em class="property">exception </em><code class="sig-prename descclassname">linkcheck.cache.urlqueue.</code><code class="sig-name descname">Empty</code><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#Empty"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.Empty" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cache.urlqueue.Empty">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.cache.urlqueue.</span></span><span class="sig-name descname"><span class="pre">Empty</span></span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#Empty"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.Empty" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
 <p>Exception raised by get().</p>
 </dd></dl>
 
 <dl class="py exception">
-<dt id="linkcheck.cache.urlqueue.Timeout">
-<em class="property">exception </em><code class="sig-prename descclassname">linkcheck.cache.urlqueue.</code><code class="sig-name descname">Timeout</code><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#Timeout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.Timeout" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cache.urlqueue.Timeout">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.cache.urlqueue.</span></span><span class="sig-name descname"><span class="pre">Timeout</span></span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#Timeout"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.Timeout" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
 <p>Raised by join()</p>
 </dd></dl>
 
 <dl class="py class">
-<dt id="linkcheck.cache.urlqueue.UrlQueue">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.cache.urlqueue.</code><code class="sig-name descname">UrlQueue</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">max_allowed_urls</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cache.urlqueue.UrlQueue">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.cache.urlqueue.</span></span><span class="sig-name descname"><span class="pre">UrlQueue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">max_allowed_urls</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>A queue supporting several consumer tasks. The task_done() idea is
 from the Python 2.5 implementation of Queue.Queue().</p>
 <p>Initialize the queue state and task counters.</p>
 <dl class="py method">
-<dt id="linkcheck.cache.urlqueue.UrlQueue.cleanup">
-<code class="sig-name descname">cleanup</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.cleanup"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.cleanup" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cache.urlqueue.UrlQueue.cleanup">
+<span class="sig-name descname"><span class="pre">cleanup</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.cleanup"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.cleanup" title="Permalink to this definition">¶</a></dt>
 <dd><p>Move cached elements to top.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.cache.urlqueue.UrlQueue.do_shutdown">
-<code class="sig-name descname">do_shutdown</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.do_shutdown"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.do_shutdown" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cache.urlqueue.UrlQueue.do_shutdown">
+<span class="sig-name descname"><span class="pre">do_shutdown</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.do_shutdown"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.do_shutdown" title="Permalink to this definition">¶</a></dt>
 <dd><p>Shutdown the queue by not accepting any more URLs.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.cache.urlqueue.UrlQueue.empty">
-<code class="sig-name descname">empty</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.empty"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.empty" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cache.urlqueue.UrlQueue.empty">
+<span class="sig-name descname"><span class="pre">empty</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.empty"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.empty" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return True if the queue is empty, False otherwise.
 Result is thread-safe, but not reliable since the queue could have
 been changed before the result is returned!</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.cache.urlqueue.UrlQueue.get">
-<code class="sig-name descname">get</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">timeout</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.get"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.get" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cache.urlqueue.UrlQueue.get">
+<span class="sig-name descname"><span class="pre">get</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">timeout</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.get"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.get" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get first not-in-progress url from the queue and
 return it. If no such url is available return None.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.cache.urlqueue.UrlQueue.join">
-<code class="sig-name descname">join</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">timeout</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.join"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.join" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cache.urlqueue.UrlQueue.join">
+<span class="sig-name descname"><span class="pre">join</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">timeout</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.join"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.join" title="Permalink to this definition">¶</a></dt>
 <dd><p>Blocks until all items in the Queue have been gotten and processed.</p>
 <p>The count of unfinished tasks goes up whenever an item is added to the
 queue. The count goes down whenever a consumer thread calls task_done()
@@ -510,27 +513,27 @@ to indicate the item was retrieved and all work on it is complete.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.cache.urlqueue.UrlQueue.put">
-<code class="sig-name descname">put</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.put"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.put" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cache.urlqueue.UrlQueue.put">
+<span class="sig-name descname"><span class="pre">put</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">item</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.put"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.put" title="Permalink to this definition">¶</a></dt>
 <dd><p>Put an item into the queue.
 Block if necessary until a free slot is available.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.cache.urlqueue.UrlQueue.qsize">
-<code class="sig-name descname">qsize</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.qsize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.qsize" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cache.urlqueue.UrlQueue.qsize">
+<span class="sig-name descname"><span class="pre">qsize</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.qsize"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.qsize" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the approximate size of the queue (not reliable!).</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.cache.urlqueue.UrlQueue.status">
-<code class="sig-name descname">status</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.status"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.status" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cache.urlqueue.UrlQueue.status">
+<span class="sig-name descname"><span class="pre">status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.status"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.status" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get tuple (finished tasks, in progress, queue size).</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.cache.urlqueue.UrlQueue.task_done">
-<code class="sig-name descname">task_done</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.task_done"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.task_done" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.cache.urlqueue.UrlQueue.task_done">
+<span class="sig-name descname"><span class="pre">task_done</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/cache/urlqueue.html#UrlQueue.task_done"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.cache.urlqueue.UrlQueue.task_done" title="Permalink to this definition">¶</a></dt>
 <dd><p>Indicate that a formerly enqueued task is complete.</p>
 <p>Used by Queue consumer threads.  For each get() used to fetch a task,
 a subsequent call to task_done() tells the queue that the processing

@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.director.status &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.director.status &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -437,8 +440,8 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.director.status.Status">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.director.status.</code><code class="sig-name descname">Status</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">aggregator</span></em>, <em class="sig-param"><span class="n">wait_seconds</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/status.html#Status"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.status.Status" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.status.Status">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.director.status.</span></span><span class="sig-name descname"><span class="pre">Status</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">aggregator</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wait_seconds</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/status.html#Status"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.status.Status" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="linkcheck.director.task.html#linkcheck.director.task.LoggedCheckedTask" title="linkcheck.director.task.LoggedCheckedTask"><code class="xref py py-class docutils literal notranslate"><span class="pre">linkcheck.director.task.LoggedCheckedTask</span></code></a></p>
 <p>Thread that gathers and logs the status periodically.</p>
 <p>Initialize the status logger task.</p>
@@ -452,14 +455,14 @@
 </dd>
 </dl>
 <dl class="py method">
-<dt id="linkcheck.director.status.Status.log_status">
-<code class="sig-name descname">log_status</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/status.html#Status.log_status"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.status.Status.log_status" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.status.Status.log_status">
+<span class="sig-name descname"><span class="pre">log_status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/status.html#Status.log_status"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.status.Status.log_status" title="Permalink to this definition">¶</a></dt>
 <dd><p>Log a status message.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.director.status.Status.run_checked">
-<code class="sig-name descname">run_checked</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/status.html#Status.run_checked"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.status.Status.run_checked" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.status.Status.run_checked">
+<span class="sig-name descname"><span class="pre">run_checked</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/status.html#Status.run_checked"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.status.Status.run_checked" title="Permalink to this definition">¶</a></dt>
 <dd><p>Print periodic status messages.</p>
 </dd></dl>
 

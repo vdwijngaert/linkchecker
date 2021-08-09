@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.containers &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.containers &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -435,70 +438,70 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.containers.LFUCache">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.containers.</code><code class="sig-name descname">LFUCache</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">size</span><span class="o">=</span><span class="default_value">1000</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.containers.LFUCache" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.containers.LFUCache">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.containers.</span></span><span class="sig-name descname"><span class="pre">LFUCache</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1000</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.containers.LFUCache" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></p>
 <p>Limited cache which purges least frequently used items.</p>
 <p>Initialize internal LFU cache.</p>
 <dl class="py method">
-<dt id="linkcheck.containers.LFUCache.get">
-<code class="sig-name descname">get</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">key</span></em>, <em class="sig-param"><span class="n">def_val</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.get"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.get" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.containers.LFUCache.get">
+<span class="sig-name descname"><span class="pre">get</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">def_val</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.get"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.get" title="Permalink to this definition">¶</a></dt>
 <dd><p>Update key usage if found and return value, else return default.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.containers.LFUCache.items">
-<code class="sig-name descname">items</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.items"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.items" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.containers.LFUCache.items">
+<span class="sig-name descname"><span class="pre">items</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.items"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.items" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return list of items, not updating usage count.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.containers.LFUCache.iteritems">
-<code class="sig-name descname">iteritems</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.iteritems"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.iteritems" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.containers.LFUCache.iteritems">
+<span class="sig-name descname"><span class="pre">iteritems</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.iteritems"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.iteritems" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return iterator of items, not updating usage count.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.containers.LFUCache.itervalues">
-<code class="sig-name descname">itervalues</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.itervalues"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.itervalues" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.containers.LFUCache.itervalues">
+<span class="sig-name descname"><span class="pre">itervalues</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.itervalues"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.itervalues" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return iterator of values, not updating usage count.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.containers.LFUCache.pop">
-<code class="sig-name descname">pop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.pop"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.pop" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.containers.LFUCache.pop">
+<span class="sig-name descname"><span class="pre">pop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.pop"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.pop" title="Permalink to this definition">¶</a></dt>
 <dd><p>Remove and return a value.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.containers.LFUCache.popitem">
-<code class="sig-name descname">popitem</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.popitem"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.popitem" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.containers.LFUCache.popitem">
+<span class="sig-name descname"><span class="pre">popitem</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.popitem"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.popitem" title="Permalink to this definition">¶</a></dt>
 <dd><p>Remove and return an item.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.containers.LFUCache.setdefault">
-<code class="sig-name descname">setdefault</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">key</span></em>, <em class="sig-param"><span class="n">def_val</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.setdefault"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.setdefault" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.containers.LFUCache.setdefault">
+<span class="sig-name descname"><span class="pre">setdefault</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">def_val</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.setdefault"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.setdefault" title="Permalink to this definition">¶</a></dt>
 <dd><p>Update key usage if found and return value, else set and return
 default.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.containers.LFUCache.shrink">
-<code class="sig-name descname">shrink</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.shrink"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.shrink" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.containers.LFUCache.shrink">
+<span class="sig-name descname"><span class="pre">shrink</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.shrink"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.shrink" title="Permalink to this definition">¶</a></dt>
 <dd><p>Shrink ca. 5% of entries.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.containers.LFUCache.uses">
-<code class="sig-name descname">uses</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">key</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.uses"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.uses" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.containers.LFUCache.uses">
+<span class="sig-name descname"><span class="pre">uses</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.uses"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.uses" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get number of uses for given key (without increasing the number of
 uses)</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.containers.LFUCache.values">
-<code class="sig-name descname">values</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.values"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.values" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.containers.LFUCache.values">
+<span class="sig-name descname"><span class="pre">values</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/containers.html#LFUCache.values"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.containers.LFUCache.values" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return list of values, not updating usage count.</p>
 </dd></dl>
 

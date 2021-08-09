@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.logger.text &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.logger.text &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -437,8 +440,8 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.logger.text.TextLogger">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.logger.text.</code><code class="sig-name descname">TextLogger</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.logger.text.</span></span><span class="sig-name descname"><span class="pre">TextLogger</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">linkcheck.logger._Logger</span></code></p>
 <p>A text logger, colorizing the output if possible.</p>
 <p>Informal text output format spec:
@@ -449,139 +452,139 @@ keyword and data, separated by whitespace.
 Unknown keywords will be ignored.</p>
 <p>Initialize error counter and optional file output.</p>
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.end_output">
-<code class="sig-name descname">end_output</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.end_output"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.end_output" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.end_output">
+<span class="sig-name descname"><span class="pre">end_output</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.end_output"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.end_output" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write end of output info, and flush all output buffers.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.init_fileoutput">
-<code class="sig-name descname">init_fileoutput</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.init_fileoutput"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.init_fileoutput" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.init_fileoutput">
+<span class="sig-name descname"><span class="pre">init_fileoutput</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.init_fileoutput"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.init_fileoutput" title="Permalink to this definition">¶</a></dt>
 <dd><p>Colorize file output if possible.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.log_url">
-<code class="sig-name descname">log_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.log_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.log_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.log_url">
+<span class="sig-name descname"><span class="pre">log_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.log_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.log_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write url checking info.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.start_fileoutput">
-<code class="sig-name descname">start_fileoutput</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.start_fileoutput"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.start_fileoutput" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.start_fileoutput">
+<span class="sig-name descname"><span class="pre">start_fileoutput</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.start_fileoutput"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.start_fileoutput" title="Permalink to this definition">¶</a></dt>
 <dd><p>Needed to make file descriptor color aware.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.start_output">
-<code class="sig-name descname">start_output</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.start_output"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.start_output" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.start_output">
+<span class="sig-name descname"><span class="pre">start_output</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.start_output"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.start_output" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write generic start checking info.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_base">
-<code class="sig-name descname">write_base</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_base"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_base" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_base">
+<span class="sig-name descname"><span class="pre">write_base</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_base"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_base" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write url_data.base_ref.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_checktime">
-<code class="sig-name descname">write_checktime</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_checktime"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_checktime" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_checktime">
+<span class="sig-name descname"><span class="pre">write_checktime</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_checktime"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_checktime" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write url_data.checktime.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_dltime">
-<code class="sig-name descname">write_dltime</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_dltime"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_dltime" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_dltime">
+<span class="sig-name descname"><span class="pre">write_dltime</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_dltime"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_dltime" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write url_data.dltime.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_id">
-<code class="sig-name descname">write_id</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_id"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_id" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_id">
+<span class="sig-name descname"><span class="pre">write_id</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_id"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_id" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write unique ID of url_data.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_info">
-<code class="sig-name descname">write_info</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_info" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_info">
+<span class="sig-name descname"><span class="pre">write_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_info"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_info" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write url_data.info.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_intro">
-<code class="sig-name descname">write_intro</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_intro"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_intro" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_intro">
+<span class="sig-name descname"><span class="pre">write_intro</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_intro"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_intro" title="Permalink to this definition">¶</a></dt>
 <dd><p>Log introduction text.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_modified">
-<code class="sig-name descname">write_modified</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_modified"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_modified" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_modified">
+<span class="sig-name descname"><span class="pre">write_modified</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_modified"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_modified" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write url_data.modified.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_name">
-<code class="sig-name descname">write_name</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_name"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_name" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_name">
+<span class="sig-name descname"><span class="pre">write_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_name" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write url_data.name.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_outro">
-<code class="sig-name descname">write_outro</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">interrupt</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_outro"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_outro" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_outro">
+<span class="sig-name descname"><span class="pre">write_outro</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">interrupt</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_outro"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_outro" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write end of checking message.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_parent">
-<code class="sig-name descname">write_parent</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_parent"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_parent" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_parent">
+<span class="sig-name descname"><span class="pre">write_parent</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_parent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_parent" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write url_data.parent_url.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_real">
-<code class="sig-name descname">write_real</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_real"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_real" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_real">
+<span class="sig-name descname"><span class="pre">write_real</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_real"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_real" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write url_data.url.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_result">
-<code class="sig-name descname">write_result</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_result"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_result" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_result">
+<span class="sig-name descname"><span class="pre">write_result</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_result"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_result" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write url_data.result.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_size">
-<code class="sig-name descname">write_size</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_size"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_size" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_size">
+<span class="sig-name descname"><span class="pre">write_size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_size"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_size" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write url_data.size.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_stats">
-<code class="sig-name descname">write_stats</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_stats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_stats" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_stats">
+<span class="sig-name descname"><span class="pre">write_stats</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_stats"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_stats" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write check statistic info.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_url">
-<code class="sig-name descname">write_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_url">
+<span class="sig-name descname"><span class="pre">write_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write url_data.base_url.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.text.TextLogger.write_warning">
-<code class="sig-name descname">write_warning</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_warning"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_warning" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.write_warning">
+<span class="sig-name descname"><span class="pre">write_warning</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/text.html#TextLogger.write_warning"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.text.TextLogger.write_warning" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write url_data.warning.</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="linkcheck.logger.text.TextLogger.LoggerArgs">
-<code class="sig-name descname">LoggerArgs</code><em class="property"> = {'colorbase': 'purple', 'colordlsize': 'default', 'colordltime': 'default', 'colorinfo': 'default', 'colorinvalid': 'bold;red', 'colorname': 'default', 'colorparent': 'default', 'colorreal': 'cyan', 'colorreset': 'default', 'colorurl': 'default', 'colorvalid': 'bold;green', 'colorwarning': 'bold;yellow', 'filename': 'linkchecker-out.txt'}</em><a class="headerlink" href="#linkcheck.logger.text.TextLogger.LoggerArgs" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.LoggerArgs">
+<span class="sig-name descname"><span class="pre">LoggerArgs</span></span><em class="property"> <span class="pre">=</span> <span class="pre">{'colorbase':</span> <span class="pre">'purple',</span> <span class="pre">'colordlsize':</span> <span class="pre">'default',</span> <span class="pre">'colordltime':</span> <span class="pre">'default',</span> <span class="pre">'colorinfo':</span> <span class="pre">'default',</span> <span class="pre">'colorinvalid':</span> <span class="pre">'bold;red',</span> <span class="pre">'colorname':</span> <span class="pre">'default',</span> <span class="pre">'colorparent':</span> <span class="pre">'default',</span> <span class="pre">'colorreal':</span> <span class="pre">'cyan',</span> <span class="pre">'colorreset':</span> <span class="pre">'default',</span> <span class="pre">'colorurl':</span> <span class="pre">'default',</span> <span class="pre">'colorvalid':</span> <span class="pre">'bold;green',</span> <span class="pre">'colorwarning':</span> <span class="pre">'bold;yellow',</span> <span class="pre">'filename':</span> <span class="pre">'linkchecker-out.txt'}</span></em><a class="headerlink" href="#linkcheck.logger.text.TextLogger.LoggerArgs" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
-<dt id="linkcheck.logger.text.TextLogger.LoggerName">
-<code class="sig-name descname">LoggerName</code><em class="property"> = 'text'</em><a class="headerlink" href="#linkcheck.logger.text.TextLogger.LoggerName" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.text.TextLogger.LoggerName">
+<span class="sig-name descname"><span class="pre">LoggerName</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'text'</span></em><a class="headerlink" href="#linkcheck.logger.text.TextLogger.LoggerName" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

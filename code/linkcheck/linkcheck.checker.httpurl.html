@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.checker.httpurl &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.checker.httpurl &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -437,8 +440,8 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.checker.httpurl.HttpUrl">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.checker.httpurl.</code><code class="sig-name descname">HttpUrl</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">base_url</span></em>, <em class="sig-param"><span class="n">recursion_level</span></em>, <em class="sig-param"><span class="n">aggregate</span></em>, <em class="sig-param"><span class="n">parent_url</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">base_ref</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">line</span><span class="o">=</span><span class="default_value">- 1</span></em>, <em class="sig-param"><span class="n">column</span><span class="o">=</span><span class="default_value">- 1</span></em>, <em class="sig-param"><span class="n">page</span><span class="o">=</span><span class="default_value">- 1</span></em>, <em class="sig-param"><span class="n">name</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">url_encoding</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">extern</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.checker.httpurl.</span></span><span class="sig-name descname"><span class="pre">HttpUrl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recursion_level</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">aggregate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent_url</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">line</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">-</span> <span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">column</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">-</span> <span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">-</span> <span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">url_encoding</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">extern</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="linkcheck.checker.internpaturl.html#linkcheck.checker.internpaturl.InternPatternUrl" title="linkcheck.checker.internpaturl.InternPatternUrl"><code class="xref py py-class docutils literal notranslate"><span class="pre">linkcheck.checker.internpaturl.InternPatternUrl</span></code></a>, <a class="reference internal" href="linkcheck.checker.proxysupport.html#linkcheck.checker.proxysupport.ProxySupport" title="linkcheck.checker.proxysupport.ProxySupport"><code class="xref py py-class docutils literal notranslate"><span class="pre">linkcheck.checker.proxysupport.ProxySupport</span></code></a></p>
 <p>Url link with http scheme.</p>
 <p>Initialize check data, and store given variables.</p>
@@ -460,14 +463,14 @@
 </dd>
 </dl>
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.add_size_info">
-<code class="sig-name descname">add_size_info</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.add_size_info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.add_size_info" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.add_size_info">
+<span class="sig-name descname"><span class="pre">add_size_info</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.add_size_info"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.add_size_info" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get size of URL content from HTTP header.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.allows_robots">
-<code class="sig-name descname">allows_robots</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.allows_robots"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.allows_robots" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.allows_robots">
+<span class="sig-name descname"><span class="pre">allows_robots</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.allows_robots"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.allows_robots" title="Permalink to this definition">¶</a></dt>
 <dd><p>Fetch and parse the robots.txt of given url. Checks if LinkChecker
 can get the requested resource content.</p>
 <dl class="field-list simple">
@@ -484,14 +487,14 @@ can get the requested resource content.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.build_request">
-<code class="sig-name descname">build_request</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.build_request"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.build_request" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.build_request">
+<span class="sig-name descname"><span class="pre">build_request</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.build_request"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.build_request" title="Permalink to this definition">¶</a></dt>
 <dd><p>Build a prepared request object.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.check_connection">
-<code class="sig-name descname">check_connection</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.check_connection"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.check_connection" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.check_connection">
+<span class="sig-name descname"><span class="pre">check_connection</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.check_connection"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.check_connection" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check a URL with HTTP protocol.
 Here is an excerpt from RFC 1945 with common response codes:
 The first digit of the Status-Code defines the class of response. The
@@ -513,53 +516,53 @@ valid request</p></li>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.check_response">
-<code class="sig-name descname">check_response</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.check_response"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.check_response" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.check_response">
+<span class="sig-name descname"><span class="pre">check_response</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.check_response"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.check_response" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check final result and log it.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.construct_auth">
-<code class="sig-name descname">construct_auth</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.construct_auth"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.construct_auth" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.construct_auth">
+<span class="sig-name descname"><span class="pre">construct_auth</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.construct_auth"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.construct_auth" title="Permalink to this definition">¶</a></dt>
 <dd><p>Construct HTTP Basic authentication credentials if there
 is user/password information available. Does not overwrite if
 credentials have already been constructed.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.content_allows_robots">
-<code class="sig-name descname">content_allows_robots</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.content_allows_robots"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.content_allows_robots" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.content_allows_robots">
+<span class="sig-name descname"><span class="pre">content_allows_robots</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.content_allows_robots"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.content_allows_robots" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return False if the content of this URL forbids robots to
 search for recursive links.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.follow_redirections">
-<code class="sig-name descname">follow_redirections</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.follow_redirections"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.follow_redirections" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.follow_redirections">
+<span class="sig-name descname"><span class="pre">follow_redirections</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.follow_redirections"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.follow_redirections" title="Permalink to this definition">¶</a></dt>
 <dd><p>Follow all redirections of http response.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.get_content">
-<code class="sig-name descname">get_content</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.get_content"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.get_content" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.get_content">
+<span class="sig-name descname"><span class="pre">get_content</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.get_content"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.get_content" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.get_redirects">
-<code class="sig-name descname">get_redirects</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.get_redirects"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.get_redirects" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.get_redirects">
+<span class="sig-name descname"><span class="pre">get_redirects</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.get_redirects"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.get_redirects" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return iterator of redirects for given request.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.get_request_kwargs">
-<code class="sig-name descname">get_request_kwargs</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.get_request_kwargs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.get_request_kwargs" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.get_request_kwargs">
+<span class="sig-name descname"><span class="pre">get_request_kwargs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.get_request_kwargs"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.get_request_kwargs" title="Permalink to this definition">¶</a></dt>
 <dd><p>Construct keyword parameters for Session.request() and
 Session.resolve_redirects().</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.get_robots_txt_url">
-<code class="sig-name descname">get_robots_txt_url</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.get_robots_txt_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.get_robots_txt_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.get_robots_txt_url">
+<span class="sig-name descname"><span class="pre">get_robots_txt_url</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.get_robots_txt_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.get_robots_txt_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the according robots.txt URL for this URL.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
@@ -572,8 +575,8 @@ Session.resolve_redirects().</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.is_parseable">
-<code class="sig-name descname">is_parseable</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.is_parseable"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.is_parseable" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.is_parseable">
+<span class="sig-name descname"><span class="pre">is_parseable</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.is_parseable"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.is_parseable" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if content is parseable for recursion.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
@@ -586,39 +589,39 @@ Session.resolve_redirects().</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.is_redirect">
-<code class="sig-name descname">is_redirect</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.is_redirect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.is_redirect" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.is_redirect">
+<span class="sig-name descname"><span class="pre">is_redirect</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.is_redirect"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.is_redirect" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if current response is a redirect.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.parse_header_links">
-<code class="sig-name descname">parse_header_links</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.parse_header_links"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.parse_header_links" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.parse_header_links">
+<span class="sig-name descname"><span class="pre">parse_header_links</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.parse_header_links"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.parse_header_links" title="Permalink to this definition">¶</a></dt>
 <dd><p>Parse URLs in HTTP headers Link:.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.read_content">
-<code class="sig-name descname">read_content</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.read_content"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.read_content" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.read_content">
+<span class="sig-name descname"><span class="pre">read_content</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.read_content"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.read_content" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return data and data size for this URL.
 Can be overridden in subclasses.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.reset">
-<code class="sig-name descname">reset</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.reset"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.reset" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.reset">
+<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.reset" title="Permalink to this definition">¶</a></dt>
 <dd><p>Initialize HTTP specific variables.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.send_request">
-<code class="sig-name descname">send_request</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.send_request"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.send_request" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.send_request">
+<span class="sig-name descname"><span class="pre">send_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.send_request"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.send_request" title="Permalink to this definition">¶</a></dt>
 <dd><p>Send request and store response in self.url_connection.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.checker.httpurl.HttpUrl.set_content_type">
-<code class="sig-name descname">set_content_type</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.set_content_type"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.set_content_type" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.httpurl.HttpUrl.set_content_type">
+<span class="sig-name descname"><span class="pre">set_content_type</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker/httpurl.html#HttpUrl.set_content_type"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.httpurl.HttpUrl.set_content_type" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return content MIME type or empty string.</p>
 </dd></dl>
 

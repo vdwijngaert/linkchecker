@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.logger.sql &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.logger.sql &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -452,50 +455,50 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.logger.sql.SQLLogger">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.logger.sql.</code><code class="sig-name descname">SQLLogger</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#SQLLogger"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.sql.SQLLogger">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.logger.sql.</span></span><span class="sig-name descname"><span class="pre">SQLLogger</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#SQLLogger"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">linkcheck.logger._Logger</span></code></p>
 <p>SQL output, should work with any SQL database (not tested).</p>
 <p>Initialize database access data.</p>
 <dl class="py method">
-<dt id="linkcheck.logger.sql.SQLLogger.comment">
-<code class="sig-name descname">comment</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">s</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#SQLLogger.comment"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger.comment" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.sql.SQLLogger.comment">
+<span class="sig-name descname"><span class="pre">comment</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">s</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#SQLLogger.comment"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger.comment" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write SQL comment.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.sql.SQLLogger.end_output">
-<code class="sig-name descname">end_output</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#SQLLogger.end_output"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger.end_output" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.sql.SQLLogger.end_output">
+<span class="sig-name descname"><span class="pre">end_output</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#SQLLogger.end_output"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger.end_output" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write end of checking info as sql comment.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.sql.SQLLogger.log_url">
-<code class="sig-name descname">log_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#SQLLogger.log_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger.log_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.sql.SQLLogger.log_url">
+<span class="sig-name descname"><span class="pre">log_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#SQLLogger.log_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger.log_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Store url check info into the database.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.logger.sql.SQLLogger.start_output">
-<code class="sig-name descname">start_output</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#SQLLogger.start_output"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger.start_output" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.sql.SQLLogger.start_output">
+<span class="sig-name descname"><span class="pre">start_output</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#SQLLogger.start_output"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger.start_output" title="Permalink to this definition">¶</a></dt>
 <dd><p>Write start of checking info as sql comment.</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="linkcheck.logger.sql.SQLLogger.LoggerArgs">
-<code class="sig-name descname">LoggerArgs</code><em class="property"> = {'dbname': 'linksdb', 'filename': 'linkchecker-out.sql', 'separator': ';'}</em><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger.LoggerArgs" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.sql.SQLLogger.LoggerArgs">
+<span class="sig-name descname"><span class="pre">LoggerArgs</span></span><em class="property"> <span class="pre">=</span> <span class="pre">{'dbname':</span> <span class="pre">'linksdb',</span> <span class="pre">'filename':</span> <span class="pre">'linkchecker-out.sql',</span> <span class="pre">'separator':</span> <span class="pre">';'}</span></em><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger.LoggerArgs" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
-<dt id="linkcheck.logger.sql.SQLLogger.LoggerName">
-<code class="sig-name descname">LoggerName</code><em class="property"> = 'sql'</em><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger.LoggerName" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.sql.SQLLogger.LoggerName">
+<span class="sig-name descname"><span class="pre">LoggerName</span></span><em class="property"> <span class="pre">=</span> <span class="pre">'sql'</span></em><a class="headerlink" href="#linkcheck.logger.sql.SQLLogger.LoggerName" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.logger.sql.intify">
-<code class="sig-prename descclassname">linkcheck.logger.sql.</code><code class="sig-name descname">intify</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">s</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#intify"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.sql.intify" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.sql.intify">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.logger.sql.</span></span><span class="sig-name descname"><span class="pre">intify</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">s</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#intify"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.sql.intify" title="Permalink to this definition">¶</a></dt>
 <dd><p>Coerce a truth value to 0/1.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -511,8 +514,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.logger.sql.sqlify">
-<code class="sig-prename descclassname">linkcheck.logger.sql.</code><code class="sig-name descname">sqlify</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">s</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#sqlify"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.logger.sql.sqlify" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.logger.sql.sqlify">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.logger.sql.</span></span><span class="sig-name descname"><span class="pre">sqlify</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">s</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/logger/sql.html#sqlify"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.logger.sql.sqlify" title="Permalink to this definition">¶</a></dt>
 <dd><p>Escape special SQL chars and strings.</p>
 </dd></dl>
 

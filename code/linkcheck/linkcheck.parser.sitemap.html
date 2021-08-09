@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.parser.sitemap &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.parser.sitemap &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -452,52 +455,52 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.parser.sitemap.XmlTagUrlParser">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.parser.sitemap.</code><code class="sig-name descname">XmlTagUrlParser</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tag</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#XmlTagUrlParser"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.parser.sitemap.XmlTagUrlParser" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.parser.sitemap.XmlTagUrlParser">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.parser.sitemap.</span></span><span class="sig-name descname"><span class="pre">XmlTagUrlParser</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tag</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#XmlTagUrlParser"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.parser.sitemap.XmlTagUrlParser" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Parse XML files and find URLs in text content of a tag name.</p>
 <p>Initialize the parser.</p>
 <dl class="py method">
-<dt id="linkcheck.parser.sitemap.XmlTagUrlParser.add_url">
-<code class="sig-name descname">add_url</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#XmlTagUrlParser.add_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.parser.sitemap.XmlTagUrlParser.add_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.parser.sitemap.XmlTagUrlParser.add_url">
+<span class="sig-name descname"><span class="pre">add_url</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#XmlTagUrlParser.add_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.parser.sitemap.XmlTagUrlParser.add_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Add non-empty URLs to the queue.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.parser.sitemap.XmlTagUrlParser.char_data">
-<code class="sig-name descname">char_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#XmlTagUrlParser.char_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.parser.sitemap.XmlTagUrlParser.char_data" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.parser.sitemap.XmlTagUrlParser.char_data">
+<span class="sig-name descname"><span class="pre">char_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#XmlTagUrlParser.char_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.parser.sitemap.XmlTagUrlParser.char_data" title="Permalink to this definition">¶</a></dt>
 <dd><p>If inside the wanted tag, append data to URL.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.parser.sitemap.XmlTagUrlParser.end_element">
-<code class="sig-name descname">end_element</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#XmlTagUrlParser.end_element"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.parser.sitemap.XmlTagUrlParser.end_element" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.parser.sitemap.XmlTagUrlParser.end_element">
+<span class="sig-name descname"><span class="pre">end_element</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#XmlTagUrlParser.end_element"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.parser.sitemap.XmlTagUrlParser.end_element" title="Permalink to this definition">¶</a></dt>
 <dd><p>If end tag is our tag, call add_url().</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.parser.sitemap.XmlTagUrlParser.parse">
-<code class="sig-name descname">parse</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#XmlTagUrlParser.parse"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.parser.sitemap.XmlTagUrlParser.parse" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.parser.sitemap.XmlTagUrlParser.parse">
+<span class="sig-name descname"><span class="pre">parse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#XmlTagUrlParser.parse"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.parser.sitemap.XmlTagUrlParser.parse" title="Permalink to this definition">¶</a></dt>
 <dd><p>Parse XML URL data.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.parser.sitemap.XmlTagUrlParser.start_element">
-<code class="sig-name descname">start_element</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">attrs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#XmlTagUrlParser.start_element"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.parser.sitemap.XmlTagUrlParser.start_element" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.parser.sitemap.XmlTagUrlParser.start_element">
+<span class="sig-name descname"><span class="pre">start_element</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attrs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#XmlTagUrlParser.start_element"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.parser.sitemap.XmlTagUrlParser.start_element" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set tag status for start element.</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.parser.sitemap.parse_sitemap">
-<code class="sig-prename descclassname">linkcheck.parser.sitemap.</code><code class="sig-name descname">parse_sitemap</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#parse_sitemap"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.parser.sitemap.parse_sitemap" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.parser.sitemap.parse_sitemap">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.parser.sitemap.</span></span><span class="sig-name descname"><span class="pre">parse_sitemap</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#parse_sitemap"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.parser.sitemap.parse_sitemap" title="Permalink to this definition">¶</a></dt>
 <dd><p>Parse XML sitemap data.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.parser.sitemap.parse_sitemapindex">
-<code class="sig-prename descclassname">linkcheck.parser.sitemap.</code><code class="sig-name descname">parse_sitemapindex</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#parse_sitemapindex"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.parser.sitemap.parse_sitemapindex" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.parser.sitemap.parse_sitemapindex">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.parser.sitemap.</span></span><span class="sig-name descname"><span class="pre">parse_sitemapindex</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/parser/sitemap.html#parse_sitemapindex"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.parser.sitemap.parse_sitemapindex" title="Permalink to this definition">¶</a></dt>
 <dd><p>Parse XML sitemap index data.</p>
 </dd></dl>
 

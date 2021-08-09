@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.director.checker &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.director.checker &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -452,40 +455,40 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt id="linkcheck.director.checker.Checker">
-<em class="property">class </em><code class="sig-prename descclassname">linkcheck.director.checker.</code><code class="sig-name descname">Checker</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">urlqueue</span></em>, <em class="sig-param"><span class="n">logger</span></em>, <em class="sig-param"><span class="n">add_request_session</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/checker.html#Checker"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.checker.Checker" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.checker.Checker">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">linkcheck.director.checker.</span></span><span class="sig-name descname"><span class="pre">Checker</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">urlqueue</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">logger</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">add_request_session</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/checker.html#Checker"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.checker.Checker" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="linkcheck.director.task.html#linkcheck.director.task.LoggedCheckedTask" title="linkcheck.director.task.LoggedCheckedTask"><code class="xref py py-class docutils literal notranslate"><span class="pre">linkcheck.director.task.LoggedCheckedTask</span></code></a></p>
 <p>URL check thread.</p>
 <p>Store URL queue and logger.</p>
 <dl class="py method">
-<dt id="linkcheck.director.checker.Checker.check_url">
-<code class="sig-name descname">check_url</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/checker.html#Checker.check_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.checker.Checker.check_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.checker.Checker.check_url">
+<span class="sig-name descname"><span class="pre">check_url</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/checker.html#Checker.check_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.checker.Checker.check_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Try to get URL data from queue and check it.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.director.checker.Checker.check_url_data">
-<code class="sig-name descname">check_url_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/checker.html#Checker.check_url_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.checker.Checker.check_url_data" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.checker.Checker.check_url_data">
+<span class="sig-name descname"><span class="pre">check_url_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/checker.html#Checker.check_url_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.checker.Checker.check_url_data" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check one URL data instance.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="linkcheck.director.checker.Checker.run_checked">
-<code class="sig-name descname">run_checked</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/checker.html#Checker.run_checked"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.checker.Checker.run_checked" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.checker.Checker.run_checked">
+<span class="sig-name descname"><span class="pre">run_checked</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/checker.html#Checker.run_checked"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.checker.Checker.run_checked" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check URLs in the queue.</p>
 </dd></dl>
 
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.director.checker.check_url">
-<code class="sig-prename descclassname">linkcheck.director.checker.</code><code class="sig-name descname">check_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url_data</span></em>, <em class="sig-param"><span class="n">logger</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/checker.html#check_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.checker.check_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.checker.check_url">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.director.checker.</span></span><span class="sig-name descname"><span class="pre">check_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url_data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">logger</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/checker.html#check_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.checker.check_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check a single URL with logging.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.director.checker.check_urls">
-<code class="sig-prename descclassname">linkcheck.director.checker.</code><code class="sig-name descname">check_urls</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">urlqueue</span></em>, <em class="sig-param"><span class="n">logger</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/checker.html#check_urls"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.director.checker.check_urls" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.director.checker.check_urls">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.director.checker.</span></span><span class="sig-name descname"><span class="pre">check_urls</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">urlqueue</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">logger</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/director/checker.html#check_urls"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.director.checker.check_urls" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check URLs without threading.</p>
 </dd></dl>
 

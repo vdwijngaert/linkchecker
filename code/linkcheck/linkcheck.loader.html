@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.loader &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.loader &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -459,21 +462,21 @@
 </tbody>
 </table>
 <dl class="py function">
-<dt id="linkcheck.loader.check_writable_by_others">
-<code class="sig-prename descclassname">linkcheck.loader.</code><code class="sig-name descname">check_writable_by_others</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#check_writable_by_others"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.loader.check_writable_by_others" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.loader.check_writable_by_others">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.loader.</span></span><span class="sig-name descname"><span class="pre">check_writable_by_others</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#check_writable_by_others"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.loader.check_writable_by_others" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if file is writable by others on POSIX systems.
 On non-POSIX systems the check is ignored.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.loader.get_folder_modules">
-<code class="sig-prename descclassname">linkcheck.loader.</code><code class="sig-name descname">get_folder_modules</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">folder</span></em>, <em class="sig-param"><span class="n">parentpackage</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#get_folder_modules"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.loader.get_folder_modules" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.loader.get_folder_modules">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.loader.</span></span><span class="sig-name descname"><span class="pre">get_folder_modules</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">folder</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parentpackage</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#get_folder_modules"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.loader.get_folder_modules" title="Permalink to this definition">¶</a></dt>
 <dd><p>.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.loader.get_importable_files">
-<code class="sig-prename descclassname">linkcheck.loader.</code><code class="sig-name descname">get_importable_files</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">folder</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#get_importable_files"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.loader.get_importable_files" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.loader.get_importable_files">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.loader.</span></span><span class="sig-name descname"><span class="pre">get_importable_files</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">folder</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#get_importable_files"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.loader.get_importable_files" title="Permalink to this definition">¶</a></dt>
 <dd><p>Find all module files in the given folder that end with ‘.py’ and
 don’t start with an underscore.</p>
 <dl class="field-list simple">
@@ -487,16 +490,16 @@ don’t start with an underscore.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.loader.get_module_plugins">
-<code class="sig-prename descclassname">linkcheck.loader.</code><code class="sig-name descname">get_module_plugins</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">module</span></em>, <em class="sig-param"><span class="n">classes</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#get_module_plugins"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.loader.get_module_plugins" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.loader.get_module_plugins">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.loader.</span></span><span class="sig-name descname"><span class="pre">get_module_plugins</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">module</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#get_module_plugins"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.loader.get_module_plugins" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return all subclasses of a class in the module.
 If the module defines __all__, only those entries will be searched,
 otherwise all objects not starting with ‘_’ will be searched.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.loader.get_package_modules">
-<code class="sig-prename descclassname">linkcheck.loader.</code><code class="sig-name descname">get_package_modules</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">packagename</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#get_package_modules"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.loader.get_package_modules" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.loader.get_package_modules">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.loader.</span></span><span class="sig-name descname"><span class="pre">get_package_modules</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">packagename</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#get_package_modules"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.loader.get_package_modules" title="Permalink to this definition">¶</a></dt>
 <dd><p>Find all valid modules in the given package which must be a folder
 in the same directory as this loader.py module. A valid module has
 a .py extension, and is importable.</p>
@@ -511,8 +514,8 @@ a .py extension, and is importable.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.loader.get_plugins">
-<code class="sig-prename descclassname">linkcheck.loader.</code><code class="sig-name descname">get_plugins</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">modules</span></em>, <em class="sig-param"><span class="n">classes</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#get_plugins"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.loader.get_plugins" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.loader.get_plugins">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.loader.</span></span><span class="sig-name descname"><span class="pre">get_plugins</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">modules</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#get_plugins"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.loader.get_plugins" title="Permalink to this definition">¶</a></dt>
 <dd><p>Find all given (sub-)classes in all modules.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -528,8 +531,8 @@ a .py extension, and is importable.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.loader.is_frozen">
-<code class="sig-prename descclassname">linkcheck.loader.</code><code class="sig-name descname">is_frozen</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#is_frozen"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.loader.is_frozen" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.loader.is_frozen">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.loader.</span></span><span class="sig-name descname"><span class="pre">is_frozen</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/loader.html#is_frozen"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.loader.is_frozen" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return True if running inside a py2exe- or py2app-generated
 executable.</p>
 </dd></dl>

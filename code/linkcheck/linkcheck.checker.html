@@ -7,12 +7,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>linkcheck.checker &mdash; LinkChecker 2021-01-29 documentation</title>
+  <title>linkcheck.checker &mdash; LinkChecker 2021-08-09 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
 
   
@@ -32,6 +34,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -69,7 +72,7 @@
             
             
               <div class="version">
-                2021-01-29
+                2021-08-09
               </div>
             
           
@@ -447,8 +450,8 @@
 </tbody>
 </table>
 <dl class="py function">
-<dt id="linkcheck.checker.absolute_url">
-<code class="sig-prename descclassname">linkcheck.checker.</code><code class="sig-name descname">absolute_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">base_url</span></em>, <em class="sig-param"><span class="n">base_ref</span></em>, <em class="sig-param"><span class="n">parent_url</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker.html#absolute_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.absolute_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.absolute_url">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.checker.</span></span><span class="sig-name descname"><span class="pre">absolute_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_ref</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent_url</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker.html#absolute_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.absolute_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Search for the absolute url to detect the link type. This does not
 join any url fragments together!</p>
 <dl class="field-list simple">
@@ -463,8 +466,8 @@ join any url fragments together!</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.checker.get_index_html">
-<code class="sig-prename descclassname">linkcheck.checker.</code><code class="sig-name descname">get_index_html</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">urls</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker.html#get_index_html"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.get_index_html" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.get_index_html">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.checker.</span></span><span class="sig-name descname"><span class="pre">get_index_html</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">urls</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker.html#get_index_html"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.get_index_html" title="Permalink to this definition">¶</a></dt>
 <dd><p>Construct artificial index.html from given URLs.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -474,8 +477,8 @@ join any url fragments together!</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.checker.get_url_from">
-<code class="sig-prename descclassname">linkcheck.checker.</code><code class="sig-name descname">get_url_from</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">base_url</span></em>, <em class="sig-param"><span class="n">recursion_level</span></em>, <em class="sig-param"><span class="n">aggregate</span></em>, <em class="sig-param"><span class="n">parent_url</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">base_ref</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">line</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">column</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">page</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">name</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">parent_content_type</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">extern</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">url_encoding</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker.html#get_url_from"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.get_url_from" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.get_url_from">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.checker.</span></span><span class="sig-name descname"><span class="pre">get_url_from</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recursion_level</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">aggregate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent_url</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_ref</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">line</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">column</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">page</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent_content_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">extern</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">url_encoding</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker.html#get_url_from"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.get_url_from" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get url data from given base data.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -496,15 +499,15 @@ join any url fragments together!</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.checker.get_urlclass_from">
-<code class="sig-prename descclassname">linkcheck.checker.</code><code class="sig-name descname">get_urlclass_from</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scheme</span></em>, <em class="sig-param"><span class="n">assume_local_file</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker.html#get_urlclass_from"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.get_urlclass_from" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.get_urlclass_from">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.checker.</span></span><span class="sig-name descname"><span class="pre">get_urlclass_from</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">scheme</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">assume_local_file</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker.html#get_urlclass_from"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.get_urlclass_from" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return checker class for given URL scheme. If the scheme
 cannot be matched and assume_local_file is True, assume a local file.</p>
 </dd></dl>
 
 <dl class="py function">
-<dt id="linkcheck.checker.guess_url">
-<code class="sig-prename descclassname">linkcheck.checker.</code><code class="sig-name descname">guess_url</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker.html#guess_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#linkcheck.checker.guess_url" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="linkcheck.checker.guess_url">
+<span class="sig-prename descclassname"><span class="pre">linkcheck.checker.</span></span><span class="sig-name descname"><span class="pre">guess_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/linkcheck/checker.html#guess_url"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#linkcheck.checker.guess_url" title="Permalink to this definition">¶</a></dt>
 <dd><p>Guess if URL is a http or ftp URL.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
